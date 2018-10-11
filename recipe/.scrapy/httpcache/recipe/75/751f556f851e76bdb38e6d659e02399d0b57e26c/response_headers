@@ -1,0 +1,14 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Set-Cookie: FirstImpression=False; domain=.allrecipes.com; expires=Thu, 11-Oct-2018 00:27:33 GMT; path=/; HttpOnly
+Set-Cookie: ARSiteUser=1-392e45b2-c880-4710-8a66-dc4213208679; domain=.allrecipes.com; expires=Wed, 09-Oct-2019 18:51:52 GMT; path=/
+Set-Cookie: ARCompressedSession=CAcAAB+LCAAAAAAABAB9VdmSokgU/Rdf7QoBF7Qi5kELFBRkFcE3lgRSkkxIQISO/vehrOpaejomIl/y3Jv3nLvBz5EFE+zXDQWj51GntOIlLnII/SWuGNj6DdY3y6ttsRpDWEXY+CLDr162Tl9qbp7yymLsYds9NRoWPEG/CpNqbfKSS8dBWDpdGrqFJq57O6qc1SUxjKwiCjQA0S6epDgSOpRqsWHWdR47qiuIUXvvVHN+9hxOPvjjBJrQnRqtMF8Kts5PZ9xyle7FczazYpzuzHt5z/Sz3vbipFJOapUrOj4sa3TZAX/uwd4TmbZvjpV3Eed74CCc9wefWRjlHPnFBM+Xu9NBgsuNYLtyv9tzm6oMOONOdaaab9rcUNYHdT0eWJEebHaHqWsYgiNfWmObNez+anhuQe/WhC23zSG3RLQtd8S7TCxpLHn4zCTCZSWvQL7uLZ/Z0auODDsjXtY5+1Pa46IILdZkJeQZpZoJl2N6e1k4kmPMVgh0ecucSK6fr9fVlu+ux3bjykAv5etNOygzml/S3Y1W/WWs0WLpabN24VbwiI7Mojb3a5EajOlrFyWN4ybC9IXtJImjt5S0gbiND8idM5mYiQsasxWHFszYM/RUZ7NjevcO1crGSMoV2geq00WlvQgJ85IF01W9OFyCZNlewnpvz0zXzNT9pKLWsgmVez+/H6UqOOsBKVMMONZNm9AE7onzgug45u9KmvLanjRgCTLnhvmtrfjmYosmSCTjMZNx/kU1QkHCnJXw8KZmog3j7dQoQ2fWla5GkSqi3V5UNnsdevzJ45l8ls4aIQA7l5YK1sJTcgsUZ5e611khNPZpIYnKeGxPRBConGEem23kE0SQNlN7764Szw3jE95tbO7U3dvxTb02klP3GXt2z+12vlbro644Lh/IIJ1j2t7KIFdYcuzweZzvvDqIbvMxnRb9XgW1HXq8zJ23UT/3QGLFJ4uEU9G4F1bG1TynrdvrPh3W5IWabIC0qx4GM08WOyXL1LzU3WQiZ2eXUbppIv4z+jF6ISSDQMYxGT3/fL/tGhgNm8o+TVccmM0D7ilcLpmnGc8yT0t/sXiKwhnHTjlmueBXnzGE0TPzYyRX66ZOAa5h6NdgiBP7qAKvuEKSBEQy/gINrmSA4VfMBDnIA0BV8AGeKkDfwz+87a4Aj5vkV6k8cOAGoV+vj7eQVrUNc+DACtaEjp5r2oAPi5wXFFQVJPjTYIIQFmBDhk5FDQLrmw+RH6BP9iMAUaVTcIOgNUE8BEi/26ymKAitIU7Uh3KrHj521Z+ujyR+17mpapJ/JCXAqkB+d/Rz8JbLj5GYDzLWUfQq9xu2JTT368ezI2grBOoa0A2srSZ/gDolMURAzv3kI9ifAqsUFg8ZPg4BQiAShlb9dn7TdqLIJhnAH9z43WnEMAz79Dg2wzw/zujRiQ0iyZc+ivcC0m8D4AAKYwii/1rWYQ1v4AvwoewDG4pK6/+R8OuhwfarGgy9igEFQ4TqbyM00GGCu5w01bcpIAmG/RfGz1q9NXT0zA4kWo7h66/sfcB+T99fDOsgeB2aty0YjX79C/L++V8IBwAA; domain=.allrecipes.com; path=/; HttpOnly
+Set-Cookie: ARToken=84XAr4Z2Z57+ieH6qwuIrXHpGRl+4V33GdSGGVqtbMlnAkpxTDFNJ5hMyfD6g2gnfNpfpgyxwB6F4M3Zf/I05Nu3stcfbla5WFKgl7AevlFOFw4PIV3jl9zfejw4Fm5RMRYrFWGH+HHTAYjHqN7wzmfHMpu7bbxBGFJR9dlHZVQV0X3ISR3+mw==; domain=.allrecipes.com; expires=Thu, 11-Oct-2018 00:27:33 GMT; path=/
+Set-Cookie: AR-FeatureToggle.WatchVideoRDP=False; domain=.allrecipes.com; path=/
+Correlationid: e595d07c-6fbe-4e21-93d6-5fe4a33ed920
+Arr-Disable-Session-Affinity: true
+Access-Control-Allow-Origin: http://images.media-allrecipes.com
+Date: Wed, 10 Oct 2018 00:27:32 GMT
+X-F5-Node: prodf5bigip2
