@@ -16,8 +16,8 @@ class RecipeSpider(CrawlSpider):
         infos = Selector(response).xpath("//div[@class='col-container']/div[@class='all-categories-col'][3]/section[1]/ul/li")
         for info in infos:
             item = recipe.items.RecipeItem()
-            item['type_url'] = info.xpath('a/@href').extract()
-            item['type_name'] = info.xpath('a/text()').extract()
+            item['type_url'] = info.xpath('a/@href').extract_first()
+            item['type_name'] = info.xpath('a/text()').extract_first()
             items.append(item)
 
         for item in items:
@@ -50,10 +50,10 @@ class RecipeSpider(CrawlSpider):
         item = response.meta['item']
 
         selector = Selector(response)
-        item['food_name'] = selector.xpath("//h1[@class='recipe-summary__h1']/text()").extract()
+        item['food_name'] = selector.xpath("//h1[@class='recipe-summary__h1']/text()").extract_first()
         item['food_ingredients'] = selector.xpath("//div/ul/li[@class='checkList__line']//span[@class='recipe-ingred_txt added']/text()").extract()
 
-        print(item)
+        # print(item)
         yield item
 
 
