@@ -4,17 +4,26 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-
+import codecs
 import json
 
-class RecipePipeline(object):
-    def open_spider(self, spider):
-        self.file = open('recipe.json', 'w')
+from scrapy.exporters import JsonItemExporter
 
-    def close_spider(self, spider):
-        self.file.close()
+
+class RecipePipeline(object):
+    def __init__(self):
+        self.file = open('recipe.json', 'wb')
+        self.exporter = JsonItemExporter(self.file, encoding='utf-8', ensure_ascii=False, indent=4)
+        self.exporter.start_exporting()
+
+    def open_spider(self, spider):
+        pass
 
     def process_item(self, item, spider):
-        line = json.dumps(dict(item, indent = 4 ))
-        self.file.write(line)
+        self.exporter.export_item(item)
         return item
+
+    def close_spider(self, spider):
+        self.exporter.finish_exporting()
+        self.file.close()
+        pass
