@@ -32,14 +32,15 @@ class RecipeSpider(CrawlSpider):
 
 
     def parse_item(self, response):
-        item = response.meta['item']
-        # food_url
+        item_1 = response.meta['item']
+
         items = []
         infos = Selector(response).xpath("//div[@class='fixed-recipe-card__info']/h3/a/@href")
         for info in infos:
+            item = recipe.items.RecipeItem()
             item['food_url'] = info.extract()
-            # item['type_url'] = item_1['type_url']
-            # item['type_name'] = item_1['type_name']
+            item['type_url'] = item_1['type_url']
+            item['type_name'] = item_1['type_name']
             items.append(item)
 
         for item in items:
