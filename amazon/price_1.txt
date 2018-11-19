@@ -1,0 +1,3726 @@
+[
+    {
+        "nectarine": [
+            {
+                "nectarine": [
+                    {
+                        "price": "$3.51", 
+                        "name": "Red Seedless Grapes, 2 lb", 
+                        "unit_price": "$0.11/Ounce"
+                    }, 
+                    {
+                        "price": "$3.44", 
+                        "name": "Green Seedless Grapes, 2 lb", 
+                        "unit_price": "$0.11/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "fettuccine": [
+            {
+                "fettuccine": [
+                    {
+                        "price": "$1.25", 
+                        "name": "Barilla Pasta, Fettuccine, 16 Ounce", 
+                        "unit_price": "$0.08/Ounce"
+                    }, 
+                    {
+                        "price": "$2.22", 
+                        "name": "Buitoni Fettuccine, 9 oz", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "guacamole": [
+            {
+                "guacamole": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Sabra, Classic Guacamole, 8 oz", 
+                        "unit_price": "$0.50/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Sabra, Classic Guacamole Singles, 4 Cups", 
+                        "unit_price": "$0.50/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "peppercorn": [
+            {
+                "peppercorn": [
+                    {
+                        "price": "$8.99", 
+                        "name": "365 Everyday Value, Black Peppercorns, 8.08 oz", 
+                        "unit_price": "$1.11/Ounce"
+                    }, 
+                    {
+                        "price": "$8.54", 
+                        "name": "BLACK PEPPER, WHOLE 3.5OZ", 
+                        "unit_price": "$2.44/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "jellybean": [
+            {
+                "jellybean": [
+                    {
+                        "price": "$3.49", 
+                        "name": "Starburst Original Jellybeans Candy, 14 ounce bag", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$3.35", 
+                        "name": "Brach's Classic Jelly Beans Candy, Assorted Flavors,...", 
+                        "unit_price": "$0.15/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "salt": [
+            {
+                "salt": [
+                    {
+                        "price": "$0.89", 
+                        "name": "Morton Iodized Salt, 26 oz", 
+                        "unit_price": "$0.03/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "McCormick Sea Salt Grinder, 2.12 oz", 
+                        "unit_price": "$1.41/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cinnamon": [
+            {
+                "cinnamon": [
+                    {
+                        "price": "$2.05", 
+                        "name": "McCormick Ground Cinnamon, 2.37 Oz", 
+                        "unit_price": "$0.86/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Simply Organic, Cinnamon, 2.45 oz", 
+                        "unit_price": "$1.63/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "corn": [
+            {
+                "corn": [
+                    {
+                        "price": "$0.99", 
+                        "name": "Del Monte Fresh Cut Golden Sweet Whole Kernel Corn,...", 
+                        "unit_price": "$0.06/Ounce"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "365 Everyday Value, Organic Sweet Yellow Corn, 16 oz...", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mirin": [
+            {
+                "mirin": [
+                    {
+                        "price": "$6.59", 
+                        "name": "Kikkoman Manjo Aji-Mirin, 10 oz", 
+                        "unit_price": "$0.66/Ounce"
+                    }, 
+                    {
+                        "price": "$3.84", 
+                        "name": "Marukan Seasoned Rice Vinegar, Organic, 12 Fl Oz", 
+                        "unit_price": "$0.32/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "slice": [
+            {
+                "slice": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Sargento Swiss Natural Cheese Slices, great pairing...", 
+                        "unit_price": "$0.57/Ounce"
+                    }, 
+                    {
+                        "price": "$14.86", 
+                        "name": "Milo'S Kitchen Beef Sausage Slices With Rice Dog Treats...", 
+                        "unit_price": "$14.86/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "bean": [
+            {
+                "bean": [
+                    {
+                        "price": "$2.03", 
+                        "name": "Green Beans, 1 lb", 
+                        "unit_price": "$0.13/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Trimmed Green Beans, 12 oz bag", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "blackberry": [
+            {
+                "blackberry": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Blackberries, 6 oz", 
+                        "unit_price": "$0.67/Ounce"
+                    }, 
+                    {
+                        "price": "$2.65", 
+                        "name": "Florida's Natural Lemonade, Blackberry, 59 Oz", 
+                        "unit_price": "$0.04/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pepperoncini": [
+            {
+                "pepperoncini": [
+                    {
+                        "price": "$1.82", 
+                        "name": "Mezzetta Golden Peperoncini, 16 Oz", 
+                        "unit_price": "$0.11/Ounce"
+                    }, 
+                    {
+                        "price": "$2.00", 
+                        "name": "Mezzetta Sliced Mild Banana Peppers, 16 oz", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "allspice": [
+            {
+                "allspice": [
+                    {
+                        "price": "$6.95", 
+                        "name": "Simply Organic Allspice, 3.07 Ounce", 
+                        "unit_price": "$2.26/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Allspice Ground, 1.9 oz", 
+                        "unit_price": "$1.57/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pepperoni": [
+            {
+                "pepperoni": [
+                    {
+                        "price": "$3.32", 
+                        "name": "Dietz & Watson, Pepperoni, 6 oz", 
+                        "unit_price": "$0.55/Ounce"
+                    }, 
+                    {
+                        "price": "$5.49", 
+                        "name": "Applegate, Natural Uncured Turkey Pepperoni, 4oz", 
+                        "unit_price": "$1.37/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "tomatillo": [
+            {
+                "tomatillo": [
+                    {
+                        "price": "$3.79", 
+                        "name": "Tomatillos, 1 lb", 
+                        "unit_price": "$0.24/Ounce"
+                    }, 
+                    {
+                        "price": "$2.77", 
+                        "name": "La Costena Green Tomatillos, 28 oz", 
+                        "unit_price": "$0.10/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "olive": [
+            {
+                "olive": [
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Kalamata Olives Pitted, 4.6 oz", 
+                        "unit_price": "$0.65/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Whole Foods Market, Organic Castelvetrano Olives, 4.58 oz", 
+                        "unit_price": "$1.09/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "oil": [
+            {
+                "oil": [
+                    {
+                        "price": "$3.49", 
+                        "name": "Crisco, Pure Vegetable Oil, 48 oz", 
+                        "unit_price": "$0.07/Fl"
+                    }, 
+                    {
+                        "price": "$5.99", 
+                        "name": "Hollywood Safflower Oil, 32 Ounce Bottle", 
+                        "unit_price": "$0.19/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cherry": [
+            {
+                "cherry": [
+                    {
+                        "price": "$4.99", 
+                        "name": "365 Everyday Value, Dark Sweet Cherries, 16 oz, (Frozen)", 
+                        "unit_price": "$0.31/Ounce"
+                    }, 
+                    {
+                        "price": "$8.99", 
+                        "name": "Jansal Valley Dried Cherries, 6 oz", 
+                        "unit_price": "$1.50/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pumpkin": [
+            {
+                "pumpkin": [
+                    {
+                        "price": "$0.99", 
+                        "name": "365 Everyday Value Canned Pumpkin, 15 oz", 
+                        "unit_price": "$0.07/Ounce"
+                    }, 
+                    {
+                        "price": "$2.50", 
+                        "name": "Libby's 100% Pure Pumpkin, 15 Ounce", 
+                        "unit_price": "$0.17/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "lemonade": [
+            {
+                "lemonade": [
+                    {
+                        "price": "$2.59", 
+                        "name": "Simply Lemonade, All Natural Non-GMO, 52 fl oz", 
+                        "unit_price": "$0.05/Fl"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Minute Maid Lemonade Made w/ Real Lemons, 12 fl oz,...", 
+                        "unit_price": "$0.03/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "potato": [
+            {
+                "potato": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Russet Potatoes, 5 lb", 
+                        "unit_price": "$0.04/Ounce"
+                    }, 
+                    {
+                        "price": "$0.56", 
+                        "name": "Russet Potato, One Large", 
+                        "unit_price": "$0.56/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "couscous": [
+            {
+                "couscous": [
+                    {
+                        "price": "$6.89", 
+                        "name": "Bob's Red Mill Couscous, 24 Oz", 
+                        "unit_price": "$0.29/Ounce"
+                    }, 
+                    {
+                        "price": "$2.00", 
+                        "name": "Near East Couscous, Roasted Garlic & Olive Oil, 5.8 Oz", 
+                        "unit_price": "$0.34/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "shrimp": [
+            {
+                "shrimp": [
+                    {
+                        "price": "$15.40", 
+                        "name": "Aqua Star, Raw, Peeled, Deveined, Tail-off Shrimp, 41...", 
+                        "unit_price": "$7.70/Pound"
+                    }, 
+                    {
+                        "price": "$16.80", 
+                        "name": "Aqua Star, Raw, Peeled, Tail-on Shrimp, 31-40 Count...", 
+                        "unit_price": "$8.40/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "scallop": [
+            {
+                "scallop": [
+                    {
+                        "price": "$17.99", 
+                        "name": "Whole Catch, North Atlantic Sea Scallops, 12 oz (Frozen)", 
+                        "unit_price": "$17.99/default"
+                    }, 
+                    {
+                        "price": "$7.07", 
+                        "name": "Fresh Tilapia Fillets, Farm-Raised, 12 oz", 
+                        "unit_price": "$9.43/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "macaroni": [
+            {
+                "macaroni": [
+                    {
+                        "price": "$1.25", 
+                        "name": "Barilla Pasta, Elbows, 16 Ounce", 
+                        "unit_price": "$0.08/Ounce"
+                    }, 
+                    {
+                        "price": "$2.77", 
+                        "name": "Barilla Elbows Pasta, 32 oz", 
+                        "unit_price": "$0.09/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "clove": [
+            {
+                "clove": [
+                    {
+                        "price": "$5.59", 
+                        "name": "Simply Organic Cloves Ground Certified Organic, 2.82...", 
+                        "unit_price": "$1.98/Ounce"
+                    }, 
+                    {
+                        "price": "$4.87", 
+                        "name": "McCormick Ground Cloves, 0.9 oz", 
+                        "unit_price": "$5.41/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "venison": [
+            {
+                "venison": [
+                    {
+                        "price": "$34.99", 
+                        "name": "Purina One Smartblend True Instinct Natural With Real...", 
+                        "unit_price": "$34.99/default"
+                    }, 
+                    {
+                        "price": "$1.40", 
+                        "name": "Wellness Petite Entrees Mini Filets Grain Free Natural...", 
+                        "unit_price": "$1.40/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "chunk": [
+            {
+                "chunk": [
+                    {
+                        "price": "$24.79", 
+                        "name": "Quest Nutrition Double Chocolate Chunk Protein Bar,...", 
+                        "unit_price": "$2.07/Count"
+                    }, 
+                    {
+                        "price": "$1.38", 
+                        "name": "Dole Pineapple Chunks, 20 Oz", 
+                        "unit_price": "$0.01/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cream": [
+            {
+                "cream": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Organic Valley, Organic Heavy Whipping Cream, Ultra...", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$4.79", 
+                        "name": "Horizon Organic, Heavy Whipping Cream, Pint, 16 oz", 
+                        "unit_price": "$0.30/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pineapple": [
+            {
+                "pineapple": [
+                    {
+                        "price": "$2.50", 
+                        "name": "Gold Pineapple", 
+                        "unit_price": "$2.50/default"
+                    }, 
+                    {
+                        "price": "$2.59", 
+                        "name": "KeVita Master Brew Kombucha, Pineapple Peach, with Live...", 
+                        "unit_price": "$0.17/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "consomme": [
+            {
+                "consomme": [
+                    {
+                        "price": "$1.25", 
+                        "name": "Campbell's Condensed Beef Consomme, 10.5 oz.", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "vegetable": [
+            {
+                "vegetable": [
+                    {
+                        "price": "$3.87", 
+                        "name": "Asparagus, 1 bunch", 
+                        "unit_price": "$3.87/default"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "Sliced White Mushrooms, 8-10 oz Package", 
+                        "unit_price": "$0.37/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "margarine": [
+            {
+                "margarine": [
+                    {
+                        "price": "$2.69", 
+                        "name": "Country Crock Buttery Spread, Original, 15 oz", 
+                        "unit_price": "$0.18/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Earth Balance Original Dairy Free Buttery Spread, Vegan...", 
+                        "unit_price": "$0.27/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pisco": [
+            {
+                "pisco": []
+            }
+        ]
+    }, 
+    {
+        "kielbasa": [
+            {
+                "kielbasa": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Hillshire Farm, Polska Kielbasa Sausage Rope, 14 oz", 
+                        "unit_price": "$0.29/Ounce"
+                    }, 
+                    {
+                        "price": "$3.58", 
+                        "name": "Coleman, Natural Polish Style Pork Kielbasa, 12 oz", 
+                        "unit_price": "$4.77/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cabbage": [
+            {
+                "cabbage": [
+                    {
+                        "price": "$2.98", 
+                        "name": "Organic Green Cabbage, 1 Head", 
+                        "unit_price": "$2.98/default"
+                    }, 
+                    {
+                        "price": "$2.29", 
+                        "name": "Green Cabbage, 1 Head", 
+                        "unit_price": "$2.29/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "flatbread": [
+            {
+                "flatbread": [
+                    {
+                        "price": "$3.99", 
+                        "name": "365 Everyday Value, Tandoori Naan Whole Wheat, 3 oz,...", 
+                        "unit_price": "$1.00/Count"
+                    }, 
+                    {
+                        "price": "$4.77", 
+                        "name": "KRYSSOS Multiseed Flatbread, 13.25 oz", 
+                        "unit_price": "$0.36/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "medium": [
+            {
+                "medium": [
+                    {
+                        "price": "$22.46", 
+                        "name": "Toppik Regular Medium Brown Hair Building Fibers, 0.36...", 
+                        "unit_price": "$22.46/default"
+                    }, 
+                    {
+                        "price": "$15.87", 
+                        "name": "Milk-Bone Original Dog Treats For Medium Dogs, 10-Pound", 
+                        "unit_price": "$15.87/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "egg": [
+            {
+                "egg": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Amazon Brand - Happy Belly Cage-Free, Large, White Eggs...", 
+                        "unit_price": "$0.25/Count"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Cage-Free Non-GMO Large Brown Grade...", 
+                        "unit_price": "$0.25/Count"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "peach": [
+            {
+                "peach": [
+                    {
+                        "price": "$3.58", 
+                        "name": "Cascadian Farm, Sliced Peaches, Organic, 10 oz (Frozen)", 
+                        "unit_price": "$0.36/Ounce"
+                    }, 
+                    {
+                        "price": "$3.49", 
+                        "name": "365 Everyday Value, Organic Sliced Peaches, 10 oz, (...", 
+                        "unit_price": "$0.35/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "flour": [
+            {
+                "flour": [
+                    {
+                        "price": "$2.29", 
+                        "name": "Gold Medal Flour, 2 lb", 
+                        "unit_price": "$0.07/Ounce"
+                    }, 
+                    {
+                        "price": "$3.35", 
+                        "name": "Pillsbury All Purpose Flour, 5 lb", 
+                        "unit_price": "$0.04/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "crabmeat": [
+            {
+                "crabmeat": [
+                    {
+                        "price": "$3.49", 
+                        "name": "Bumble Bee, White Crabmeat, 6 oz", 
+                        "unit_price": "$0.58/Ounce"
+                    }, 
+                    {
+                        "price": "$7.99", 
+                        "name": "Crown Prince, Fancy White Lump Crab Meat, 6 oz", 
+                        "unit_price": "$1.33/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "bit": [
+            {
+                "bit": [
+                    {
+                        "price": "$14.99", 
+                        "name": "Bosch GT2000 Glass and Tile Set, 4-Piece", 
+                        "unit_price": "$14.99/default"
+                    }, 
+                    {
+                        "price": "$15.59", 
+                        "name": "Kibbles 'N Bits Small Breed Mini Bits Savory Beef &...", 
+                        "unit_price": "$15.59/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "lime": [
+            {
+                "lime": [
+                    {
+                        "price": "$0.39", 
+                        "name": "Lime, One Medium", 
+                        "unit_price": "$0.39/default"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Organic Limes, 1 lb", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "shorten": [
+            {
+                "shorten": []
+            }
+        ]
+    }, 
+    {
+        "ground": [
+            {
+                "ground": [
+                    {
+                        "price": "$3.40", 
+                        "name": "Perdue, Fresh Lean Ground Turkey, 1 lb", 
+                        "unit_price": "$3.40/default"
+                    }, 
+                    {
+                        "price": "$5.17", 
+                        "name": "Niman Ranch Ground Pork, 1 lb", 
+                        "unit_price": "$5.17/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "caramel": [
+            {
+                "caramel": [
+                    {
+                        "price": "$2.59", 
+                        "name": "Kraft Caramels, 11 Oz", 
+                        "unit_price": "$0.24/oz"
+                    }, 
+                    {
+                        "price": "$2.74", 
+                        "name": "Kraft, Premium Caramel Bits, 11 oz", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pear": [
+            {
+                "pear": [
+                    {
+                        "price": "$1.00", 
+                        "name": "Organic Bartlett Pear, One Large", 
+                        "unit_price": "$1.00/default"
+                    }, 
+                    {
+                        "price": "$1.08", 
+                        "name": "Organic D'Anjou Pear, One Large", 
+                        "unit_price": "$1.08/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "barley": [
+            {
+                "barley": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Arrowhead Mills, Pearled Barley, Organic, 28 oz", 
+                        "unit_price": "$0.14/Ounce"
+                    }, 
+                    {
+                        "price": "$3.29", 
+                        "name": "365 Everyday Value, Organic Italian Barley, 8.8 oz", 
+                        "unit_price": "$0.37/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "caper": [
+            {
+                "caper": [
+                    {
+                        "price": "$2.69", 
+                        "name": "365 Everyday Value, Organic Capers Non-Pareil, 2 oz", 
+                        "unit_price": "$1.34/Ounce"
+                    }, 
+                    {
+                        "price": "$2.00", 
+                        "name": "Mezzetta, Non Pareil Capers, Imported Gourmet, 4 oz", 
+                        "unit_price": "$0.50/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "spinach": [
+            {
+                "spinach": [
+                    {
+                        "price": "$4.99", 
+                        "name": "365 Everyday Value, Organic Baby Spinach, 16 oz", 
+                        "unit_price": "$0.31/Ounce"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "365 Everyday Value, Organic Baby Spinach, 5 oz", 
+                        "unit_price": "$0.40/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mustard": [
+            {
+                "mustard": [
+                    {
+                        "price": "$2.19", 
+                        "name": "French's Classic Yellow Mustard, Stone Ground Mustard...", 
+                        "unit_price": "$0.11/oz"
+                    }, 
+                    {
+                        "price": "$1.79", 
+                        "name": "French\u2019s Classic Yellow Mustard Sauce, Stone Ground...", 
+                        "unit_price": "$0.13/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "orange": [
+            {
+                "orange": [
+                    {
+                        "price": "$0.83", 
+                        "name": "Navel Orange, One Medium", 
+                        "unit_price": "$0.83/default"
+                    }, 
+                    {
+                        "price": "$5.89", 
+                        "name": "Wonderful Halos Mandarins | 3lb Bag | Sweet, Seedless...", 
+                        "unit_price": "$0.16/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "brie": [
+            {
+                "brie": [
+                    {
+                        "price": "$8.29", 
+                        "name": "President, Brie Round, 8 oz", 
+                        "unit_price": "$16.58/Pound"
+                    }, 
+                    {
+                        "price": "$6.69", 
+                        "name": "La Bonne Vie French Style Brie, Triple Creme, 8 oz", 
+                        "unit_price": "$0.84/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "apricot": [
+            {
+                "apricot": [
+                    {
+                        "price": "$4.17", 
+                        "name": "Made In Nature Organic Dried Apricots, 6 Oz", 
+                        "unit_price": "$0.69/oz"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Bonne Maman Preserves, Apricot, 13 Oz", 
+                        "unit_price": "$0.31/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mccormick": [
+            {
+                "mccormick": [
+                    {
+                        "price": "$5.56", 
+                        "name": "McCormick Grill Mates Montreal Steak Seasoning, 11.62 oz", 
+                        "unit_price": "$0.48/Ounce"
+                    }, 
+                    {
+                        "price": "$6.41", 
+                        "name": "McCormick Garlic Powder, 8.75 oz", 
+                        "unit_price": "$0.73/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "hazelnut": [
+            {
+                "hazelnut": [
+                    {
+                        "price": "$11.99", 
+                        "name": "Chocolate Hazelnut Butter by Justin's, Organic Cocoa...", 
+                        "unit_price": "$0.75/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Coffee-Mate, Liquid Coffee Creamer, Hazelnut, Quart,...", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "grated": [
+            {
+                "grated": [
+                    {
+                        "price": "$3.99", 
+                        "name": "365 Everyday Value, Grated Parmesan Cheese, 5 oz", 
+                        "unit_price": "$3.99/default"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Kraft Parmesan Grated Cheese, 8 oz", 
+                        "unit_price": "$0.50/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "rice": [
+            {
+                "rice": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Mahatma White Rice, 5 lb.", 
+                        "unit_price": "$0.06/Ounce"
+                    }, 
+                    {
+                        "price": "$14.99", 
+                        "name": "Botan Calrose Rice, 15-Pound", 
+                        "unit_price": "$1.00/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "tomato": [
+            {
+                "tomato": [
+                    {
+                        "price": "$3.01", 
+                        "name": "Organic Greenhouse Red On-The-Vine Tomatoes, 1 lb", 
+                        "unit_price": "$0.19/Ounce"
+                    }, 
+                    {
+                        "price": "$2.79", 
+                        "name": "Roma Tomatoes, 1.5 lb", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "argo": [
+            {
+                "argo": [
+                    {
+                        "price": "$2.69", 
+                        "name": "Argo Tea Bottled Tea Drink, Hibiscus Sangria, 13.5 oz", 
+                        "unit_price": "$0.20/Fl"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "Argo 100% Pure Corn Starch, 16 Oz", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cilantro": [
+            {
+                "cilantro": [
+                    {
+                        "price": "$1.09", 
+                        "name": "Organic Cilantro, 1 Bunch", 
+                        "unit_price": "$1.09/default"
+                    }, 
+                    {
+                        "price": "$0.99", 
+                        "name": "Cilantro, 1 Bunch", 
+                        "unit_price": "$0.99/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "chive": [
+            {
+                "chive": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Organic Chives, .75 oz Clamshell", 
+                        "unit_price": "$3.99/Ounce"
+                    }, 
+                    {
+                        "price": "$1.29", 
+                        "name": "Organic Green Onion (Scallions), One Bunch", 
+                        "unit_price": "$1.29/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "salmon": [
+            {
+                "salmon": [
+                    {
+                        "price": "$10.43", 
+                        "name": "Marine Harvest Fresh Atlantic Salmon, Skin-On, Responsibly...", 
+                        "unit_price": "$13.91/Pound"
+                    }, 
+                    {
+                        "price": "$10.99", 
+                        "name": "Whole Catch, Whole Catch Sockeye Salmon Fillet, 12 oz...", 
+                        "unit_price": "$10.99/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "lychee": [
+            {
+                "lychee": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Whole Foods Market, Super Fruit & Seed Exfoliating Bar...", 
+                        "unit_price": "$0.80/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Whole Foods Market, Caviar Lime & Mint Exfoliating Bar...", 
+                        "unit_price": "$0.80/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "nutmeg": [
+            {
+                "nutmeg": [
+                    {
+                        "price": "$4.69", 
+                        "name": "McCormick Ground Nutmeg, 1.1 oz", 
+                        "unit_price": "$4.26/Ounce"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "365 Everyday Value, Organic Nutmeg Ground, .53 oz", 
+                        "unit_price": "$3.75/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "apple": [
+            {
+                "apple": [
+                    {
+                        "price": "$1.60", 
+                        "name": "Honeycrisp Apple, One Medium", 
+                        "unit_price": "$1.60/default"
+                    }, 
+                    {
+                        "price": "$6.99", 
+                        "name": "Organic Fuji Apples, 3 lb", 
+                        "unit_price": "$0.15/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "velveeta": [
+            {
+                "velveeta": [
+                    {
+                        "price": "$5.75", 
+                        "name": "Kraft Velveeta Loaf, 16 oz", 
+                        "unit_price": "$0.36/Ounce"
+                    }, 
+                    {
+                        "price": "$9.44", 
+                        "name": "Velveeta Shells & Cheese Pasta, Original, Single Serve...", 
+                        "unit_price": "$0.49/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "bourbon": [
+            {
+                "bourbon": [
+                    {
+                        "price": "$4.89", 
+                        "name": "Haagen-Dazs Bourbon Praline Pecan Ice Cream, 14 oz (...", 
+                        "unit_price": "$0.35/Ounce"
+                    }, 
+                    {
+                        "price": "$3.71", 
+                        "name": "365 Everyday Value Almondmilk Salted Pecan Bourbon Non-Dairy...", 
+                        "unit_price": "$0.23/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "creme": [
+            {
+                "creme": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Organic Valley, Organic Sour Cream, Low Fat, 16 oz", 
+                        "unit_price": "$0.19/Ounce"
+                    }, 
+                    {
+                        "price": "$7.99", 
+                        "name": "L'Or\u00e9al Paris Excellence Cr\u00e9me Permanent Hair Color,...", 
+                        "unit_price": "$7.99/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "bouillon": [
+            {
+                "bouillon": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Better Than Bouillon, Chicken Base, 8 oz", 
+                        "unit_price": "$0.62/Ounce"
+                    }, 
+                    {
+                        "price": "$1.50", 
+                        "name": "Knorr Cube Bouillon, Chicken, 2.5 Ounce, 6 Cubes", 
+                        "unit_price": "$0.60/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "hummus": [
+            {
+                "hummus": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Whole Foods Market, Original Hummus, 16 oz", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$2.49", 
+                        "name": "Whole Foods Market, Original Hummus, 8 oz", 
+                        "unit_price": "$0.31/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "water": [
+            {
+                "water": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Arrowhead Spring Water, 16.9 Fl Oz (24 Count)", 
+                        "unit_price": "$0.01/Fl"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "DASANI Purified Water Bottles Enhanced with Minerals...", 
+                        "unit_price": "$0.01/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "chicken": [
+            {
+                "chicken": [
+                    {
+                        "price": "$5.16", 
+                        "name": "Just BARE Chicken, Hand-Trimmed Boneless, Skinless Chicken...", 
+                        "unit_price": "$5.90/Pound"
+                    }, 
+                    {
+                        "price": "$11.02", 
+                        "name": "Just BARE Chicken, Hand-Trimmed Boneless, Skinless Chicken...", 
+                        "unit_price": "$5.51/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "whiskey": [
+            {
+                "whiskey": [
+                    {
+                        "price": "$4.13", 
+                        "name": "365 Everyday Value Almondmilk Irish Whiskey Salted Caramel...", 
+                        "unit_price": "$0.26/Ounce"
+                    }, 
+                    {
+                        "price": "$2.84", 
+                        "name": "Hillshire Snacking, Small Plates, Whiskey & Brown Sugar...", 
+                        "unit_price": "$1.42/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "milk": [
+            {
+                "milk": [
+                    {
+                        "price": "$5.49", 
+                        "name": "365 Everyday Value, Organic Whole Milk, 128 oz", 
+                        "unit_price": "$0.04/Ounce"
+                    }, 
+                    {
+                        "price": "$4.49", 
+                        "name": "DairyPure, 2% Reduced Fat Milk, Pasteurized, Gallon,...", 
+                        "unit_price": "$0.04/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cod": [
+            {
+                "cod": [
+                    {
+                        "price": "$8.93", 
+                        "name": "Fresh Pacific Cod Fillet, 12 oz", 
+                        "unit_price": "$11.91/Pound"
+                    }, 
+                    {
+                        "price": "$7.28", 
+                        "name": "Trident Seafoods Alasakan Pollock Fillet Portion, 2.1...", 
+                        "unit_price": "$0.73/Count"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mussel": [
+            {
+                "mussel": []
+            }
+        ]
+    }, 
+    {
+        "walnut": [
+            {
+                "walnut": [
+                    {
+                        "price": "$4.99", 
+                        "name": "365 Everyday Value, Walnuts - Chopped, 8 oz", 
+                        "unit_price": "$0.62/Ounce"
+                    }, 
+                    {
+                        "price": "$5.99", 
+                        "name": "Mariani Nut Company Shelled Walnuts Laydown Ziplock,...", 
+                        "unit_price": "$0.50/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "lemon": [
+            {
+                "lemon": [
+                    {
+                        "price": "$0.89", 
+                        "name": "Lemon, One Medium", 
+                        "unit_price": "$0.89/default"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Organic Lemons, 2 lb", 
+                        "unit_price": "$0.16/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "horizon": [
+            {
+                "horizon": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Horizon Organic, Whole Milk with DHA Omega-3, Ultra...", 
+                        "unit_price": "$0.08/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Horizon Organic, 2% Lactose-Free Ultra-Pasteurized Milk...", 
+                        "unit_price": "$0.08/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cucumber": [
+            {
+                "cucumber": [
+                    {
+                        "price": "$0.79", 
+                        "name": "Cucumber, Medium", 
+                        "unit_price": "$0.79/default"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "English Cucumber, One Medium", 
+                        "unit_price": "$1.99/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "scallion": [
+            {
+                "scallion": [
+                    {
+                        "price": "$1.29", 
+                        "name": "Organic Green Onion (Scallions), One Bunch", 
+                        "unit_price": "$1.29/default"
+                    }, 
+                    {
+                        "price": "$1.04", 
+                        "name": "Green Onions (Scallions), One Bunch", 
+                        "unit_price": "$1.04/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pecan": [
+            {
+                "pecan": [
+                    {
+                        "price": "$8.99", 
+                        "name": "365 Everyday Value, 365 Pecans - Halves, 12 oz", 
+                        "unit_price": "$0.75/Ounce"
+                    }, 
+                    {
+                        "price": "$5.99", 
+                        "name": "365 Everyday Value, 365 Pecans - Pieces, 8 oz", 
+                        "unit_price": "$0.75/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mango": [
+            {
+                "mango": [
+                    {
+                        "price": "$1.19", 
+                        "name": "Red Mango", 
+                        "unit_price": "$1.19/default"
+                    }, 
+                    {
+                        "price": "$2.29", 
+                        "name": "Organic Mango, One Medium", 
+                        "unit_price": "$2.29/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cornstarch": [
+            {
+                "cornstarch": [
+                    {
+                        "price": "$1.99", 
+                        "name": "Argo 100% Pure Corn Starch, 16 Oz", 
+                        "unit_price": "$0.12/Ounce"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "365 Everyday Value, Corn Starch, 16 oz", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "broccoli": [
+            {
+                "broccoli": [
+                    {
+                        "price": "$2.49", 
+                        "name": "365 Everyday Value, Broccoli Florets, 12 oz", 
+                        "unit_price": "$0.21/Ounce"
+                    }, 
+                    {
+                        "price": "$4.16", 
+                        "name": "Organic Broccoli", 
+                        "unit_price": "$4.16/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "fresh": [
+            {
+                "fresh": [
+                    {
+                        "price": "$1.79", 
+                        "name": "Bananas, 1 bunch (min. 5 ct.)", 
+                        "unit_price": "$0.36/Count"
+                    }, 
+                    {
+                        "price": "$3.49", 
+                        "name": "Strawberries, 1 lb", 
+                        "unit_price": "$0.22/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "optional": [
+            {
+                "optional": [
+                    {
+                        "price": "$9.00", 
+                        "name": "essie the wild nudes 2017 nail polish collection, clothing...", 
+                        "unit_price": "$9.00/default"
+                    }, 
+                    {
+                        "price": "$32.98", 
+                        "name": "Amazon Dash Wand With Alexa", 
+                        "unit_price": "$32.98/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "salami": [
+            {
+                "salami": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Applegate, Natural Uncured Genoa Salami, 4oz", 
+                        "unit_price": "$1.25/Ounce"
+                    }, 
+                    {
+                        "price": "$9.19", 
+                        "name": "Columbus, Genoa Salame Presliced Pillow, 10 oz", 
+                        "unit_price": "$0.92/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "arugula": [
+            {
+                "arugula": [
+                    {
+                        "price": "$1.99", 
+                        "name": "365 Everyday Value, Organic Baby Arugula, 5 oz", 
+                        "unit_price": "$0.40/Ounce"
+                    }, 
+                    {
+                        "price": "$3.00", 
+                        "name": "Organicgirl Baby Arugula Greens, 5 oz Clamshell", 
+                        "unit_price": "$0.60/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "seed": [
+            {
+                "seed": [
+                    {
+                        "price": "$1.67", 
+                        "name": "BIGS Taco Bell Taco Supreme Sunflower Seeds, 5.35-Ounce", 
+                        "unit_price": "$0.31/Ounce"
+                    }, 
+                    {
+                        "price": "$6.29", 
+                        "name": "McCormick Gourmet Organic Fennel Seed, 1 oz", 
+                        "unit_price": "$6.29/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cashew": [
+            {
+                "cashew": [
+                    {
+                        "price": "$7.99", 
+                        "name": "365 Everyday Value, Cashews, 16 oz", 
+                        "unit_price": "$0.50/Ounce"
+                    }, 
+                    {
+                        "price": "$21.94", 
+                        "name": "Planters Cashew Halves and Pieces Salted, 46 oz. Container", 
+                        "unit_price": "$0.48/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "spice": [
+            {
+                "spice": [
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Allspice Ground, 1.9 oz", 
+                        "unit_price": "$1.57/Ounce"
+                    }, 
+                    {
+                        "price": "$6.99", 
+                        "name": "365 Everyday Value Organic Pumpkin Spice Ground Coffee...", 
+                        "unit_price": "$0.58/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "coriander": [
+            {
+                "coriander": [
+                    {
+                        "price": "$4.39", 
+                        "name": "Simply Organic - Coriander - 2.29 oz.", 
+                        "unit_price": "$1.92/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Ground Coriander, 1.6 oz", 
+                        "unit_price": "$1.87/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "vanilla": [
+            {
+                "vanilla": [
+                    {
+                        "price": "$6.79", 
+                        "name": "365 Everyday Value, Organic Vanilla Extract , 2 oz", 
+                        "unit_price": "$3.40/Ounce"
+                    }, 
+                    {
+                        "price": "$15.19", 
+                        "name": "Simply Organic Vanilla Flavoring, 4 Ounce", 
+                        "unit_price": "$3.80/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "filet": [
+            {
+                "filet": [
+                    {
+                        "price": "$12.54", 
+                        "name": "Pre, Filet Mignon Steak \u2013 100% Grass-Fed, Grass- Finished...", 
+                        "unit_price": "$40.13/Pound"
+                    }, 
+                    {
+                        "price": "$18.99", 
+                        "name": "Verde Farms, Organic 100% Grass-Fed Tenderloin Steaks...", 
+                        "unit_price": "$30.38/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "horseradish": [
+            {
+                "horseradish": [
+                    {
+                        "price": "$1.73", 
+                        "name": "Dairy Fresh Silver Spring 1572 Plan Horseradish, 5 oz", 
+                        "unit_price": "$0.35/Ounce"
+                    }, 
+                    {
+                        "price": "$3.74", 
+                        "name": "Beaver Cream Style Horseradish, 12 oz", 
+                        "unit_price": "$0.31/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cashews": [
+            {
+                "cashews": [
+                    {
+                        "price": "$7.99", 
+                        "name": "365 Everyday Value, Cashews - Roasted & Salted, 16 oz", 
+                        "unit_price": "$0.50/Ounce"
+                    }, 
+                    {
+                        "price": "$17.47", 
+                        "name": "Planters Cashew Halves & Pieces, Salted, 1 Pound and...", 
+                        "unit_price": "$0.67/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "honey": [
+            {
+                "honey": [
+                    {
+                        "price": "$2.89", 
+                        "name": "LoveSome Honey Bear, 12 Ounces", 
+                        "unit_price": "$0.24/Ounce"
+                    }, 
+                    {
+                        "price": "$4.59", 
+                        "name": "SueBee Clover Honey, 12 Oz", 
+                        "unit_price": "$0.38/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "tapioca": [
+            {
+                "tapioca": [
+                    {
+                        "price": "$4.29", 
+                        "name": "Kraft Minute Tapioca, 8 oz", 
+                        "unit_price": "$0.54/Ounce"
+                    }, 
+                    {
+                        "price": "$3.78", 
+                        "name": "KOZY TAPIOCA PUDNG 6PK 24OZ", 
+                        "unit_price": "$0.16/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "coffee": [
+            {
+                "coffee": [
+                    {
+                        "price": "$17.89", 
+                        "name": "Peet's Coffee, Peetnik Pack, Major Dickason's Blend,...", 
+                        "unit_price": "$0.89/Ounce"
+                    }, 
+                    {
+                        "price": "$7.79", 
+                        "name": "Folgers Classic Roast Ground Coffee, Medium Roast, 30.5...", 
+                        "unit_price": "$0.26/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pork": [
+            {
+                "pork": [
+                    {
+                        "price": "$6.62", 
+                        "name": "Boneless Pork Tenderloin, 1 lb", 
+                        "unit_price": "$6.62/default"
+                    }, 
+                    {
+                        "price": "$5.99", 
+                        "name": "Boneless Center Cut Pork Chops, 1 lb", 
+                        "unit_price": "$5.99/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "sake": [
+            {
+                "sake": [
+                    {
+                        "price": "$4.64", 
+                        "name": "Mrs. Meyer's Clean Day Multi-Surface Everyday Cleaner...", 
+                        "unit_price": "$0.29/Ounce"
+                    }, 
+                    {
+                        "price": "$6.59", 
+                        "name": "Kikkoman Manjo Aji-Mirin, 10 oz", 
+                        "unit_price": "$0.66/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "lentil": [
+            {
+                "lentil": [
+                    {
+                        "price": "$1.69", 
+                        "name": "Westbrae Natural Vegetarian Organic Lentils, 15 Oz,...", 
+                        "unit_price": "$0.11/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Organic Black Lentils, 16 oz", 
+                        "unit_price": "$0.19/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "butter": [
+            {
+                "butter": [
+                    {
+                        "price": "$3.19", 
+                        "name": "Kerrygold, Pure Irish Butter, Salted, 8 oz", 
+                        "unit_price": "$0.40/Ounce"
+                    }, 
+                    {
+                        "price": "$5.19", 
+                        "name": "Challenge Dairy, Sea Salt European-Style Butter Quarters...", 
+                        "unit_price": "$0.65/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "molass": [
+            {
+                "molass": [
+                    {
+                        "price": "$4.49", 
+                        "name": "Wholesome Sweeteners, Blackstrap Molasses, 16 oz", 
+                        "unit_price": "$0.28/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Brer Rabbit Molasses Full Flavor, 12 oz", 
+                        "unit_price": "$0.42/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cachaca": [
+            {
+                "cachaca": []
+            }
+        ]
+    }, 
+    {
+        "frankfurter": [
+            {
+                "frankfurter": [
+                    {
+                        "price": "$5.99", 
+                        "name": "Field Roast, Grain Meat Frankfurters, 16 oz (Frozen)", 
+                        "unit_price": "$5.99/default"
+                    }, 
+                    {
+                        "price": "$6.21", 
+                        "name": "Teton Waters Beef Grass Fed Frankfurters, 10 oz", 
+                        "unit_price": "$0.62/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "juice": [
+            {
+                "juice": [
+                    {
+                        "price": "$2.59", 
+                        "name": "Mott's Original Apple 100% Juice, 64 Fluid Ounce Bottle", 
+                        "unit_price": "$0.04/Fl"
+                    }, 
+                    {
+                        "price": "$2.59", 
+                        "name": "Simply Peach Juice Drink, 52 fl oz", 
+                        "unit_price": "$0.05/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "garlic": [
+            {
+                "garlic": [
+                    {
+                        "price": "$1.99", 
+                        "name": "Organic Garlic, One Medium", 
+                        "unit_price": "$1.99/default"
+                    }, 
+                    {
+                        "price": "$0.50", 
+                        "name": "Medium Garlic, One Bulb", 
+                        "unit_price": "$0.50/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "shortening": [
+            {
+                "shortening": [
+                    {
+                        "price": "$5.99", 
+                        "name": "Spectrum Naturals Organic Shortening, All Vegetable,...", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Crisco Shortening Sticks All Vegetable, 3 ct, 20 oz", 
+                        "unit_price": "$0.20/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "carrot": [
+            {
+                "carrot": [
+                    {
+                        "price": "$2.49", 
+                        "name": "Organic Carrots, 2 lb", 
+                        "unit_price": "$0.08/Ounce"
+                    }, 
+                    {
+                        "price": "$1.50", 
+                        "name": "Organic Baby Carrots, 1 lb", 
+                        "unit_price": "$0.09/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "watermelon": [
+            {
+                "watermelon": [
+                    {
+                        "price": "$4.29", 
+                        "name": "Whole Foods Market Watermelon Spears, 16 oz", 
+                        "unit_price": "$0.27/Ounce"
+                    }, 
+                    {
+                        "price": "$7.49", 
+                        "name": "Organic Mini Watermelon, Seedless, One", 
+                        "unit_price": "$7.49/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "jalapeno": [
+            {
+                "jalapeno": [
+                    {
+                        "price": "$1.99", 
+                        "name": "Jalapeno Peppers, 8 oz", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Mrs. Renfro's Nacho Sliced Jalapeno Peppers, 16 oz", 
+                        "unit_price": "$0.31/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "banana": [
+            {
+                "banana": [
+                    {
+                        "price": "$1.79", 
+                        "name": "Bananas, 1 bunch (min. 5 ct.)", 
+                        "unit_price": "$0.36/Count"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "Organic Bananas, 1 bunch (min. 5 ct.)", 
+                        "unit_price": "$0.40/Count"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "ham": [
+            {
+                "ham": [
+                    {
+                        "price": "$18.27", 
+                        "name": "Dietz & Watson, Chef Carved Dinner Ham, 3 lb", 
+                        "unit_price": "$6.09/Pound"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Hillshire Farm Ultra Thin Sliced Lunchmeat, Honey Ham...", 
+                        "unit_price": "$7.09/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "almond": [
+            {
+                "almond": [
+                    {
+                        "price": "$6.99", 
+                        "name": "365 Everyday Value, Almonds, 16 oz", 
+                        "unit_price": "$0.44/Ounce"
+                    }, 
+                    {
+                        "price": "$5.99", 
+                        "name": "Blue Diamond Almonds, Bold Wasabi & Soy Sauce, 16 Ounce", 
+                        "unit_price": "$0.37/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "sage": [
+            {
+                "sage": [
+                    {
+                        "price": "$3.29", 
+                        "name": "Organic Poultry Herb Medley, .75 oz Clamshell", 
+                        "unit_price": "$4.39/Ounce"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "365 Everyday Value, Organic Sage, .21 oz", 
+                        "unit_price": "$9.48/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "avocado": [
+            {
+                "avocado": [
+                    {
+                        "price": "$5.99", 
+                        "name": "Bagged Hass Avocados, 4ct Small", 
+                        "unit_price": "$1.50/Count"
+                    }, 
+                    {
+                        "price": "$1.49", 
+                        "name": "Hass Avocado, Large", 
+                        "unit_price": "$1.49/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "bottle": [
+            {
+                "bottle": [
+                    {
+                        "price": "$12.29", 
+                        "name": "Philips AVENT Drying Rack", 
+                        "unit_price": "$12.29/default"
+                    }, 
+                    {
+                        "price": "$7.78", 
+                        "name": "M-Wave Quick Release & Universal Mount Water Bottle...", 
+                        "unit_price": "$7.78/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "wine": [
+            {
+                "wine": [
+                    {
+                        "price": "$12.99", 
+                        "name": "Hallmark Keepsake Christmas Ornament 2018 Year Dated...", 
+                        "unit_price": "$12.99/default"
+                    }, 
+                    {
+                        "price": "$3.29", 
+                        "name": "Regina Fine Red Wine Vinegar, 12 Ounce", 
+                        "unit_price": "$0.27/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "dough": [
+            {
+                "dough": [
+                    {
+                        "price": "$2.35", 
+                        "name": "General Mills Pillsbury Crsnt Recipe Creation, 8 oz", 
+                        "unit_price": "$0.29/Ounce"
+                    }, 
+                    {
+                        "price": "$23.99", 
+                        "name": "Quest Nutrition Chocolate Chip Cookie Dough Protein...", 
+                        "unit_price": "$0.94/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "strawberry": [
+            {
+                "strawberry": [
+                    {
+                        "price": "$3.49", 
+                        "name": "Strawberries, 1 lb", 
+                        "unit_price": "$0.22/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Organic Strawberries, 1 lb", 
+                        "unit_price": "$0.31/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "vodka": [
+            {
+                "vodka": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Classico Vodka Sauce, 24 oz", 
+                        "unit_price": "$0.12/oz"
+                    }, 
+                    {
+                        "price": "$6.99", 
+                        "name": "Bertolli Frozen Skillet Meals for Two Chicken Alla Vodka...", 
+                        "unit_price": "$0.29/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cubed": [
+            {
+                "cubed": [
+                    {
+                        "price": "$5.29", 
+                        "name": "Whole Foods Market Cubed Butternut Squash, 21 oz", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Whole Foods Market Cubed Sweet Potatoes, 21 oz", 
+                        "unit_price": "$0.19/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "buttermilk": [
+            {
+                "buttermilk": [
+                    {
+                        "price": "$3.49", 
+                        "name": "Organic Valley, Organic Low Fat Cultured Buttermilk,...", 
+                        "unit_price": "$0.11/Fl"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "Knudsen Buttermilk, 32 oz", 
+                        "unit_price": "$0.09/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "ice": [
+            {
+                "ice": [
+                    {
+                        "price": "$3.29", 
+                        "name": "Pure Leaf Iced Tea, Unsweetened Black Tea, 59 oz", 
+                        "unit_price": "$0.06/Fl"
+                    }, 
+                    {
+                        "price": "$5.24", 
+                        "name": "OUTSHINE Strawberry, Raspberry & Lime Frozen Fruit Bars...", 
+                        "unit_price": "$0.29/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "oregano": [
+            {
+                "oregano": [
+                    {
+                        "price": "$2.49", 
+                        "name": "McCormick Oregano Leaves, .75 Oz", 
+                        "unit_price": "$3.32/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Organic Oregano, 0.35 oz", 
+                        "unit_price": "$8.54/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "ginger": [
+            {
+                "ginger": [
+                    {
+                        "price": "$3.29", 
+                        "name": "Organic Ginger, 8 oz", 
+                        "unit_price": "$0.41/Ounce"
+                    }, 
+                    {
+                        "price": "$3.29", 
+                        "name": "Celestial Seasonings Jammin' Lemon Ginger Herbal Tea...", 
+                        "unit_price": "$2.06/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cranberry": [
+            {
+                "cranberry": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Organic Cranberries, 12 oz bag", 
+                        "unit_price": "$0.17/Count"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "Cranberries, 12 oz bag", 
+                        "unit_price": "$0.12/Count"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cornmeal": [
+            {
+                "cornmeal": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Bob's Red Mill Cornmeal, Medium Grind, 24 Ounce", 
+                        "unit_price": "$0.12/Ounce"
+                    }, 
+                    {
+                        "price": "$3.29", 
+                        "name": "Bob's Red Mill Gluten Free Cornbread Mix, 20 Ounce", 
+                        "unit_price": "$0.16/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "jar": [
+            {
+                "jar": [
+                    {
+                        "price": "$16.20", 
+                        "name": "Mrs. Meyer's Clean Day Scented Soy Candle, Large Glass...", 
+                        "unit_price": "$1.12/Ounce"
+                    }, 
+                    {
+                        "price": "$6.49", 
+                        "name": "Maxwell House Original Blend Instant Coffee, Medium...", 
+                        "unit_price": "$0.81/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "prosciutto": [
+            {
+                "prosciutto": [
+                    {
+                        "price": "$7.99", 
+                        "name": "Applegate, Natural Prosciutto, 4oz", 
+                        "unit_price": "$2.00/Ounce"
+                    }, 
+                    {
+                        "price": "$7.25", 
+                        "name": "Dietz & Watson Antipasto Platter, 6 oz", 
+                        "unit_price": "$1.21/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "marshmallow": [
+            {
+                "marshmallow": [
+                    {
+                        "price": "$2.00", 
+                        "name": "Jet-Puffed Miniature Marshmallows, 16 Ounce Bag", 
+                        "unit_price": "$0.12/oz"
+                    }, 
+                    {
+                        "price": "$2.29", 
+                        "name": "Jet Puffed Marshmallows, 16oz", 
+                        "unit_price": "$0.14/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cognac": [
+            {
+                "cognac": []
+            }
+        ]
+    }, 
+    {
+        "cola": [
+            {
+                "cola": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Coca-Cola Soda Soft Drink, 12 fl oz, 12 Pack", 
+                        "unit_price": "$0.42/Cans"
+                    }, 
+                    {
+                        "price": "$8.99", 
+                        "name": "Coca-Cola Soda Soft Drink, 12 fl oz, 24 Pack", 
+                        "unit_price": "$0.37/Cans"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "sugar": [
+            {
+                "sugar": [
+                    {
+                        "price": "$2.99", 
+                        "name": "C & H Sugar Company Granulated Sugar, 4 lb", 
+                        "unit_price": "$0.05/Ounce"
+                    }, 
+                    {
+                        "price": "$3.79", 
+                        "name": "365 Everyday Value, Organic Cane Sugar, 32 oz", 
+                        "unit_price": "$1.90/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "valley": [
+            {
+                "valley": [
+                    {
+                        "price": "$10.33", 
+                        "name": "Nature Valley Peanut Butter Dark Chocolate, Salted Caramel...", 
+                        "unit_price": "$0.48/Ounce"
+                    }, 
+                    {
+                        "price": "$5.99", 
+                        "name": "Nature Valley Biscuits 10 Count Box, Peanut Butter,...", 
+                        "unit_price": "$0.44/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "sweeten": [
+            {
+                "sweeten": [
+                    {
+                        "price": "$0.58", 
+                        "name": "Jiffy Muffin Mix, Corn, 8.5 Oz", 
+                        "unit_price": "$0.00/oz"
+                    }, 
+                    {
+                        "price": "$7.49", 
+                        "name": "Gevalia Cold Brew House Blend Iced Coffee Concentrate...", 
+                        "unit_price": "$0.23/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "eggnog": [
+            {
+                "eggnog": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Organic Valley, Organic Egg Nog, 1 Quart", 
+                        "unit_price": "$0.16/Fl"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Horizon Organic Lowfat Eggnog, 32 oz", 
+                        "unit_price": "$0.16/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pepper": [
+            {
+                "pepper": [
+                    {
+                        "price": "$3.65", 
+                        "name": "McCormick Ground Black Pepper, 3 oz", 
+                        "unit_price": "$1.22/Ounce"
+                    }, 
+                    {
+                        "price": "$4.29", 
+                        "name": "McCormick Black Peppercorn Grinder, 2.5 oz", 
+                        "unit_price": "$1.72/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "celery": [
+            {
+                "celery": [
+                    {
+                        "price": "$1.49", 
+                        "name": "Celery, Medium", 
+                        "unit_price": "$1.49/default"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "Organic Celery, One Medium", 
+                        "unit_price": "$1.99/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "brandy": [
+            {
+                "brandy": [
+                    {
+                        "price": "$5.28", 
+                        "name": "Whole Foods Market Brandy Caramel Swirl Italian Gelato...", 
+                        "unit_price": "$0.17/Fl"
+                    }, 
+                    {
+                        "price": "$11.52", 
+                        "name": "Emmi Swiss Fondue, 14 oz", 
+                        "unit_price": "$0.82/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "paprika": [
+            {
+                "paprika": [
+                    {
+                        "price": "$2.99", 
+                        "name": "McCormick Paprika, 2.12 oz", 
+                        "unit_price": "$1.41/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "365 Everyday Value, Organic Paprika, 1.69 oz", 
+                        "unit_price": "$2.36/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cure": [
+            {
+                "cure": [
+                    {
+                        "price": "$8.71", 
+                        "name": "Head and Shoulders Instant Relief Anti-Dandruff Shampoo...", 
+                        "unit_price": "$0.39/Fl"
+                    }, 
+                    {
+                        "price": "$9.06", 
+                        "name": "Vitafusion Extra Strength Vitamin D3 Gummy Vitamins,...", 
+                        "unit_price": "$0.08/Count"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cointreau": [
+            {
+                "cointreau": []
+            }
+        ]
+    }, 
+    {
+        "meat": [
+            {
+                "meat": [
+                    {
+                        "price": "$5.29", 
+                        "name": "Just BARE Chicken, Hand-Trimmed Boneless, Skinless Chicken...", 
+                        "unit_price": "$4.23/Pound"
+                    }, 
+                    {
+                        "price": "$5.16", 
+                        "name": "Just BARE Chicken, Hand-Trimmed Boneless, Skinless Chicken...", 
+                        "unit_price": "$5.90/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "gin": [
+            {
+                "gin": [
+                    {
+                        "price": "$5.69", 
+                        "name": "DRY Sparkling Soda, Cucumber, 12 oz Bottles (Pack of 4)", 
+                        "unit_price": "$0.12/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "raisin": [
+            {
+                "raisin": [
+                    {
+                        "price": "$3.59", 
+                        "name": "Sun-Maid Raisins, 10 Oz", 
+                        "unit_price": "$0.36/oz"
+                    }, 
+                    {
+                        "price": "$3.79", 
+                        "name": "Sun-Maid Golden Raisins, 15 Oz", 
+                        "unit_price": "$0.25/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "noodle": [
+            {
+                "noodle": [
+                    {
+                        "price": "$1.69", 
+                        "name": "House Foods, Tofu Shirataki, Spaghetti Shaped Tofu,...", 
+                        "unit_price": "$3.38/Pound"
+                    }, 
+                    {
+                        "price": "$1.15", 
+                        "name": "Golden Star Maifun Rice Noodles, 6 oz", 
+                        "unit_price": "$0.19/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "skinless": [
+            {
+                "skinless": [
+                    {
+                        "price": "$6.08", 
+                        "name": "Tyson Boneless Skinless Chicken Breasts, 2 Pounds (Frozen)", 
+                        "unit_price": "$3.04/Pound"
+                    }, 
+                    {
+                        "price": "$5.29", 
+                        "name": "Just BARE Chicken, Hand-Trimmed Boneless, Skinless Chicken...", 
+                        "unit_price": "$4.23/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "puree": [
+            {
+                "puree": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Farmer's Market Organic Sweet Potato Puree, 15 oz", 
+                        "unit_price": "$0.20/Ounce"
+                    }, 
+                    {
+                        "price": "$2.00", 
+                        "name": "Farmer's Market Foods, Organic Canned Pumpkin, 15 oz", 
+                        "unit_price": "$2.00/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mayonnaise": [
+            {
+                "mayonnaise": [
+                    {
+                        "price": "$2.58", 
+                        "name": "Kraft Mayo Real Mayonnaise, 12 Fluid Ounce Bottle", 
+                        "unit_price": "$0.21/Fl"
+                    }, 
+                    {
+                        "price": "$4.19", 
+                        "name": "Best Foods Real Mayonnaise, Squeeze, 20 oz", 
+                        "unit_price": "$0.21/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "kale": [
+            {
+                "kale": [
+                    {
+                        "price": "$1.50", 
+                        "name": "Organic Kale, 1 Bunch", 
+                        "unit_price": "$1.50/default"
+                    }, 
+                    {
+                        "price": "$3.49", 
+                        "name": "365 Everyday Value Conventional Chopped Kale, 16 oz", 
+                        "unit_price": "$0.22/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cheese": [
+            {
+                "cheese": [
+                    {
+                        "price": "$2.49", 
+                        "name": "Amazon Brand - Happy Belly Shredded Mexican Four Cheese...", 
+                        "unit_price": "$0.31/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Sargento Medium Cheddar Natural Cheese Slices, great...", 
+                        "unit_price": "$0.50/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pasta": [
+            {
+                "pasta": [
+                    {
+                        "price": "$1.25", 
+                        "name": "Barilla Pasta, Rotini, 16 Ounce", 
+                        "unit_price": "$0.08/Ounce"
+                    }, 
+                    {
+                        "price": "$1.49", 
+                        "name": "Barilla Pasta, Farfalle, 16 Ounce", 
+                        "unit_price": "$0.09/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "crouton": [
+            {
+                "crouton": [
+                    {
+                        "price": "$1.99", 
+                        "name": "Mrs. Cubbison's Restaurant Style Croutons, Caesar Salad...", 
+                        "unit_price": "$0.40/Ounce"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "Mrs. Cubbison's French Bread Croutons, Garlic & Butter...", 
+                        "unit_price": "$0.40/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "date": [
+            {
+                "date": [
+                    {
+                        "price": "$3.99", 
+                        "name": "365 Everyday Value, Dates - Pitted, 8 oz", 
+                        "unit_price": "$0.50/Ounce"
+                    }, 
+                    {
+                        "price": "$3.28", 
+                        "name": "Sun-Maid Pitted Dates, 8-Ounces", 
+                        "unit_price": "$0.41/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "rum": [
+            {
+                "rum": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Haagen-Dazs, Rum Raisin Ice Cream, 14-Ounces", 
+                        "unit_price": "$0.29/Count"
+                    }, 
+                    {
+                        "price": "$3.58", 
+                        "name": "Growing Roots Organic Coconut and Seed Snacks, Pineapple...", 
+                        "unit_price": "$0.90/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "ketchup": [
+            {
+                "ketchup": [
+                    {
+                        "price": "$3.49", 
+                        "name": "Heinz Tomato Ketchup, 32 oz Bottle", 
+                        "unit_price": "$0.11/oz"
+                    }, 
+                    {
+                        "price": "$2.59", 
+                        "name": "Heinz Tomato Ketchup, 20 oz Bottle", 
+                        "unit_price": "$0.13/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "elbow": [
+            {
+                "elbow": [
+                    {
+                        "price": "$1.25", 
+                        "name": "Barilla Pasta, Elbows, 16 Ounce", 
+                        "unit_price": "$0.08/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "De Cecco Pasta Elbows Pasta, 16 oz", 
+                        "unit_price": "$0.19/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "tequila": [
+            {
+                "tequila": [
+                    {
+                        "price": "$8.37", 
+                        "name": "Tyson Any'tizers Tequila Lime Bone-In Chicken Wings,...", 
+                        "unit_price": "$1.05/Count"
+                    }, 
+                    {
+                        "price": "$5.69", 
+                        "name": "DRY Sparkling Soda, Cucumber, 12 oz Bottles (Pack of 4)", 
+                        "unit_price": "$0.12/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "tuna": [
+            {
+                "tuna": [
+                    {
+                        "price": "$33.91", 
+                        "name": "StarKist Chunk Light Tuna in Water, 2.6-Ounce Pouches...", 
+                        "unit_price": "$0.54/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "BUMBLE BEE Solid White Albacore Tuna in Water, Canned...", 
+                        "unit_price": "$0.42/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "grape": [
+            {
+                "grape": [
+                    {
+                        "price": "$3.51", 
+                        "name": "Red Seedless Grapes, 2 lb", 
+                        "unit_price": "$0.11/Ounce"
+                    }, 
+                    {
+                        "price": "$3.44", 
+                        "name": "Green Seedless Grapes, 2 lb", 
+                        "unit_price": "$0.11/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "sauerkraut": [
+            {
+                "sauerkraut": [
+                    {
+                        "price": "$3.99", 
+                        "name": "365 Everyday Value, Organic Sauerkraut, 32 oz", 
+                        "unit_price": "$0.12/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Claussen Premium Crisp Sauerkraut, 32 Ounce", 
+                        "unit_price": "$0.12/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cook": [
+            {
+                "cook": [
+                    {
+                        "price": "$5.70", 
+                        "name": "Good Cook Aluminum Meat Tenderizer", 
+                        "unit_price": "$5.70/default"
+                    }, 
+                    {
+                        "price": "$4.93", 
+                        "name": "STAINMASTER Cooktop Cleaner, 13oz, Stove Cleaner", 
+                        "unit_price": "$0.38/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "applesauce": [
+            {
+                "applesauce": [
+                    {
+                        "price": "$2.50", 
+                        "name": "Mott's Unsweetened Applesauce, 3.9 Ounce Cup, 6 Count", 
+                        "unit_price": "$0.11/Ounce"
+                    }, 
+                    {
+                        "price": "$3.19", 
+                        "name": "GoGo squeeZ Applesauce on the Go, Apple Apple, 3.2 Ounce...", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "turkey": [
+            {
+                "turkey": [
+                    {
+                        "price": "$19.90", 
+                        "name": "Diestel, Whole Turkey, 10-12 lbs (Fresh)", 
+                        "unit_price": "$1.99/Pound"
+                    }, 
+                    {
+                        "price": "$29.90", 
+                        "name": "Diestel, Organic Whole Turkey, 10-12 lbs (Fresh)", 
+                        "unit_price": "$2.99/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "vinegar": [
+            {
+                "vinegar": [
+                    {
+                        "price": "$2.66", 
+                        "name": "LoveSome White Distilled Vinegar, 64 Ounce", 
+                        "unit_price": "$0.04/Ounce"
+                    }, 
+                    {
+                        "price": "$7.19", 
+                        "name": "Heinz Distilled White Vinegar, 1 gal", 
+                        "unit_price": "$0.06/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "raspberry": [
+            {
+                "raspberry": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Red Raspberries, 6 oz", 
+                        "unit_price": "$0.50/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "Organic Raspberries, 6 oz", 
+                        "unit_price": "$0.83/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "rhubarb": [
+            {
+                "rhubarb": [
+                    {
+                        "price": "$1.25", 
+                        "name": "Siggi's Icelandic Milk and Skyr Whole Milk Yoghurt,...", 
+                        "unit_price": "$0.28/Ounce"
+                    }, 
+                    {
+                        "price": "$1.99", 
+                        "name": "Noosa Yoghurt, Strawberry Rhubarb, 8 oz", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "peanut": [
+            {
+                "peanut": [
+                    {
+                        "price": "$5.98", 
+                        "name": "Planters Peanuts, Dry Roasted & Salted, 34.5 Ounce Jar", 
+                        "unit_price": "$0.17/oz"
+                    }, 
+                    {
+                        "price": "$3.49", 
+                        "name": "365 Everyday Value, Roasted & Unsalted Peanuts, 16 oz", 
+                        "unit_price": "$0.22/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "papaya": [
+            {
+                "papaya": [
+                    {
+                        "price": "$17.99", 
+                        "name": "365 Everyday Value, Papaya Enzymes Chewables, 500 ct", 
+                        "unit_price": "$0.04/Count"
+                    }, 
+                    {
+                        "price": "$1.19", 
+                        "name": "Red Mango", 
+                        "unit_price": "$1.19/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "champagne": [
+            {
+                "champagne": [
+                    {
+                        "price": "$6.34", 
+                        "name": "Dietz & Watson, Champagne Cheddar Cheese Wedge, 7.6 oz", 
+                        "unit_price": "$13.35/Pound"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "Girard's Dressing Light Champagne, 12 oz", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "nut": [
+            {
+                "nut": [
+                    {
+                        "price": "$9.99", 
+                        "name": "Planters Deluxe Mixed Nuts, 15.25 Ounce Canister", 
+                        "unit_price": "$0.66/Ounce"
+                    }, 
+                    {
+                        "price": "$7.27", 
+                        "name": "Planters Mixed Nuts, 15 Ounce Canister", 
+                        "unit_price": "$0.48/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "ranch": [
+            {
+                "ranch": [
+                    {
+                        "price": "$4.39", 
+                        "name": "Hidden Valley Dressing, Ranch, 24 oz", 
+                        "unit_price": "$0.18/Ounce"
+                    }, 
+                    {
+                        "price": "$7.71", 
+                        "name": "Hidden Valley Original Ranch Salad Dressing & Topping...", 
+                        "unit_price": "$0.15/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cumin": [
+            {
+                "cumin": [
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Ground Cumin, 1.52 oz", 
+                        "unit_price": "$1.97/Ounce"
+                    }, 
+                    {
+                        "price": "$4.39", 
+                        "name": "Simply Organic, Cumin, 2.31 oz", 
+                        "unit_price": "$1.90/oz"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "alfalfa": [
+            {
+                "alfalfa": [
+                    {
+                        "price": "$34.99", 
+                        "name": "Vega Clean Protein Powder Chocolate (15 Servings, 19.5oz...", 
+                        "unit_price": "$34.99/default"
+                    }, 
+                    {
+                        "price": "$32.50", 
+                        "name": "New Vega Protein & Greens Vanilla (25 Servings, 26.8...", 
+                        "unit_price": "$1.21/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cauliflower": [
+            {
+                "cauliflower": [
+                    {
+                        "price": "$2.07", 
+                        "name": "Cauliflower, 1 Head", 
+                        "unit_price": "$2.07/default"
+                    }, 
+                    {
+                        "price": "$3.08", 
+                        "name": "Organic Cauliflower, 1 Head", 
+                        "unit_price": "$3.08/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "spaghetti": [
+            {
+                "spaghetti": [
+                    {
+                        "price": "$1.25", 
+                        "name": "Barilla Pasta, Spaghetti, 16 Ounce", 
+                        "unit_price": "$0.08/Ounce"
+                    }, 
+                    {
+                        "price": "$1.09", 
+                        "name": "365 Everyday Value, Spaghetti, 16 oz", 
+                        "unit_price": "$0.07/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "oats": [
+            {
+                "oats": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Quaker Oats, Old Fashioned, 18 Oz", 
+                        "unit_price": "$0.17/Ounce"
+                    }, 
+                    {
+                        "price": "$4.49", 
+                        "name": "Quaker Old Fashioned Oatmeal, Breakfast Cereal, 42 oz...", 
+                        "unit_price": "$0.11/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "sherry": [
+            {
+                "sherry": [
+                    {
+                        "price": "$6.06", 
+                        "name": "Napa Valley, Sherry Vinegar, 12.7 oz", 
+                        "unit_price": "$0.48/Ounce"
+                    }, 
+                    {
+                        "price": "$3.69", 
+                        "name": "Pompeian Red Wine Vinegar, 16 oz", 
+                        "unit_price": "$0.23/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "limeade": [
+            {
+                "limeade": [
+                    {
+                        "price": "$3.09", 
+                        "name": "Santa Cruz Organic Limeade Juice, 1 Quart", 
+                        "unit_price": "$0.10/Fl"
+                    }, 
+                    {
+                        "price": "$2.50", 
+                        "name": "Simply Limeade, Non-GMO, 52 fl oz", 
+                        "unit_price": "$0.05/Fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "pesto": [
+            {
+                "pesto": [
+                    {
+                        "price": "$4.26", 
+                        "name": "Buitoni, Pesto with Basil, 7 oz", 
+                        "unit_price": "$0.61/Ounce"
+                    }, 
+                    {
+                        "price": "$4.60", 
+                        "name": "Blue Moose, Basil Pesto, 7oz", 
+                        "unit_price": "$0.66/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "grenadine": [
+            {
+                "grenadine": [
+                    {
+                        "price": "$2.98", 
+                        "name": "Rose's Grenadine, 12 oz", 
+                        "unit_price": "$0.25/fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "baguette": [
+            {
+                "baguette": [
+                    {
+                        "price": "$2.99", 
+                        "name": "La Brea Bakery Take & Bake Twin Pack French Baguette...", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$4.99", 
+                        "name": "La Brea Bakery Take & Bake French Demi Baguettes, Pkg...", 
+                        "unit_price": "$1.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "biscuit": [
+            {
+                "biscuit": [
+                    {
+                        "price": "$2.50", 
+                        "name": "Pillsbury Grands!, Flaky Layers, Original, 8 Biscuits...", 
+                        "unit_price": "$0.15/Ounce"
+                    }, 
+                    {
+                        "price": "$2.50", 
+                        "name": "Pillsbury Grands!, Southern Homestyle, Buttermilk, 8...", 
+                        "unit_price": "$0.15/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "eggplant": [
+            {
+                "eggplant": [
+                    {
+                        "price": "$1.99", 
+                        "name": "Eggplant", 
+                        "unit_price": "$1.99/default"
+                    }, 
+                    {
+                        "price": "$4.29", 
+                        "name": "365 Everyday Value, Organic Eggplant Ravioli, 8 oz,...", 
+                        "unit_price": "$0.54/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "radish": [
+            {
+                "radish": [
+                    {
+                        "price": "$2.49", 
+                        "name": "Organic Red Radish, 1 Bunch", 
+                        "unit_price": "$2.49/default"
+                    }, 
+                    {
+                        "price": "$3.98", 
+                        "name": "Organic Daikon Radish, 1 lb", 
+                        "unit_price": "$0.25/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "yogurt": [
+            {
+                "yogurt": [
+                    {
+                        "price": "$0.99", 
+                        "name": "Chobani Non-Fat Greek Yogurt, Peach on the Bottom 5.3oz", 
+                        "unit_price": "$0.19/Ounce"
+                    }, 
+                    {
+                        "price": "$0.99", 
+                        "name": "Chobani, Non-Fat Greek Yogurt, Blueberry on the Bottom...", 
+                        "unit_price": "$0.19/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "sausage": [
+            {
+                "sausage": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Jimmy Dean, Premium All Natural Pork Sausage, 16 oz", 
+                        "unit_price": "$4.99/default"
+                    }, 
+                    {
+                        "price": "$5.49", 
+                        "name": "Johnsonville, Mild Italian Ground Sausage, 16 oz (Frozen)", 
+                        "unit_price": "$5.49/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "tube": [
+            {
+                "tube": [
+                    {
+                        "price": "$22.24", 
+                        "name": "019823 Airhead 6000 Lb Tube Tow Rope Ahtr-6000,", 
+                        "unit_price": "$22.24/default"
+                    }, 
+                    {
+                        "price": "$9.49", 
+                        "name": "L'Or\u00e9al Paris Makeup Double Extend Beauty Tubes Lengthening...", 
+                        "unit_price": "$9.49/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "shallot": [
+            {
+                "shallot": [
+                    {
+                        "price": "$0.89", 
+                        "name": "Yellow Onion, One Large", 
+                        "unit_price": "$0.89/default"
+                    }, 
+                    {
+                        "price": "$1.29", 
+                        "name": "Organic Yellow Onion, Large", 
+                        "unit_price": "$1.29/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "basil": [
+            {
+                "basil": [
+                    {
+                        "price": "$3.49", 
+                        "name": "Organic Basil, .75 oz Clamshell", 
+                        "unit_price": "$4.65/Ounce"
+                    }, 
+                    {
+                        "price": "$2.59", 
+                        "name": "McCormick Basil Leaves, 0.62 OZ", 
+                        "unit_price": "$4.18/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "broth": [
+            {
+                "broth": [
+                    {
+                        "price": "$2.29", 
+                        "name": "365 Everyday Value, Organic Low Sodium Chicken Broth...", 
+                        "unit_price": "$0.07/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Organic Beef Broth, 32 oz", 
+                        "unit_price": "$0.09/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "chickpea": [
+            {
+                "chickpea": [
+                    {
+                        "price": "$0.79", 
+                        "name": "365 Everyday Value, Garbanzo Beans No Salt Added, 15.5 oz", 
+                        "unit_price": "$0.05/Ounce"
+                    }, 
+                    {
+                        "price": "$2.99", 
+                        "name": "365 Everyday Value, Organic Dried Garbanzo Beans, 16 oz", 
+                        "unit_price": "$0.19/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "lard": [
+            {
+                "lard": [
+                    {
+                        "price": "$5.99", 
+                        "name": "Spectrum Naturals Organic Shortening, All Vegetable,...", 
+                        "unit_price": "$0.25/Ounce"
+                    }, 
+                    {
+                        "price": "$1.79", 
+                        "name": "Mission Street Taco Flour Tortillas, 12 Count", 
+                        "unit_price": "$0.15/Count"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "blueberry": [
+            {
+                "blueberry": [
+                    {
+                        "price": "$4.99", 
+                        "name": "Blueberries, 1 pint", 
+                        "unit_price": "$4.99/default"
+                    }, 
+                    {
+                        "price": "$6.89", 
+                        "name": "Organic Blueberries, 6 oz", 
+                        "unit_price": "$1.15/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "kiwi": [
+            {
+                "kiwi": [
+                    {
+                        "price": "$0.59", 
+                        "name": "Organic Kiwifruit, One Medium", 
+                        "unit_price": "$0.59/default"
+                    }, 
+                    {
+                        "price": "$11.36", 
+                        "name": "KIWI Deluxe Shine Kit M-26 (Packaging May Vary)", 
+                        "unit_price": "$11.36/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "lobster": [
+            {
+                "lobster": [
+                    {
+                        "price": "$4.59", 
+                        "name": "Trans-Ocean Products, Lobster Classic, 8 oz", 
+                        "unit_price": "$9.18/Pound"
+                    }, 
+                    {
+                        "price": "$15.40", 
+                        "name": "Aqua Star, Raw, Peeled, Deveined, Tail-off Shrimp, 41...", 
+                        "unit_price": "$7.70/Pound"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "jicama": [
+            {
+                "jicama": [
+                    {
+                        "price": "$5.99", 
+                        "name": "Bagged Hass Avocados, 4ct Small", 
+                        "unit_price": "$1.50/Count"
+                    }, 
+                    {
+                        "price": "$0.99", 
+                        "name": "Red Bell Pepper, One", 
+                        "unit_price": "$0.99/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "blackstrap": [
+            {
+                "blackstrap": []
+            }
+        ]
+    }, 
+    {
+        "onion": [
+            {
+                "onion": [
+                    {
+                        "price": "$0.89", 
+                        "name": "Yellow Onion, One Large", 
+                        "unit_price": "$0.89/default"
+                    }, 
+                    {
+                        "price": "$1.29", 
+                        "name": "Organic Yellow Onion, Large", 
+                        "unit_price": "$1.29/default"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "bagel": [
+            {
+                "bagel": [
+                    {
+                        "price": "$3.99", 
+                        "name": "Thomas' Plain Bagels, 6 Count", 
+                        "unit_price": "$0.20/Ounce"
+                    }, 
+                    {
+                        "price": "$3.99", 
+                        "name": "Thomas' Everything Bagels, 6 Count in 1 pack", 
+                        "unit_price": "$1.00/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "yeast": [
+            {
+                "yeast": [
+                    {
+                        "price": "$2.19", 
+                        "name": "Red Star Active Dry Yeast, 3 Count", 
+                        "unit_price": "$0.73/Count"
+                    }, 
+                    {
+                        "price": "$6.39", 
+                        "name": "Fleischmann's Active Dry Yeast, 4 oz", 
+                        "unit_price": "$1.60/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "cocoa": [
+            {
+                "cocoa": [
+                    {
+                        "price": "$9.26", 
+                        "name": "HERSHEY'S Natural Unsweetened 100% Cocoa, Holiday Baking...", 
+                        "unit_price": "$0.40/Ounce"
+                    }, 
+                    {
+                        "price": "$5.99", 
+                        "name": "365 Everyday Value, Organic Cocoa Powder, 8 oz", 
+                        "unit_price": "$0.75/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mozzarella": [
+            {
+                "mozzarella": [
+                    {
+                        "price": "$3.81", 
+                        "name": "Mozzarella Fresca, Fresh Mozzarella Cheeseball, 8 oz", 
+                        "unit_price": "$7.62/Pound"
+                    }, 
+                    {
+                        "price": "$6.61", 
+                        "name": "Galbani, Fresh Sliced Mozzarella, 16 oz", 
+                        "unit_price": "$0.41/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "beer": [
+            {
+                "beer": [
+                    {
+                        "price": "$4.87", 
+                        "name": "Johnsonville, Beer 'n Bratwurst, 19 oz (Frozen)", 
+                        "unit_price": "$4.10/Pound"
+                    }, 
+                    {
+                        "price": "$2.62", 
+                        "name": "Kombucha Wonder Drink Asian Pear and Ginger Sparkling...", 
+                        "unit_price": "$0.19/fl"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "mushroom": [
+            {
+                "mushroom": [
+                    {
+                        "price": "$2.99", 
+                        "name": "Sliced White Mushrooms, 8-10 oz Package", 
+                        "unit_price": "$0.37/Ounce"
+                    }, 
+                    {
+                        "price": "$2.30", 
+                        "name": "Crimini (Baby Bella) Mushrooms, 6-8 oz Package", 
+                        "unit_price": "$0.29/Ounce"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "bacon": [
+            {
+                "bacon": [
+                    {
+                        "price": "$5.99", 
+                        "name": "365 Everyday Value, Smokehouse Bacon, 12 oz", 
+                        "unit_price": "$5.99/default"
+                    }, 
+                    {
+                        "price": "$7.49", 
+                        "name": "Oscar Mayer, Center Cut Bacon, 12 oz", 
+                        "unit_price": "$0.62/Ounce"
+                    }
+                ]
+            }
+        ]
+    }
+]
