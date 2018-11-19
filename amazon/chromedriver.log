@@ -1,0 +1,2860 @@
+[1542499952.045][INFO]: [c404e6a562f8739c49cc4e46073476d4] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1542499952.089][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1542499952.108][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1542499952.160][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension=/var/folders/wc/qbj12lpd1v7g3bw3fxx9dp0r0000gn/T/.org.chromium.Chromium.qMwext/internal --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/wc/qbj12lpd1v7g3bw3fxx9dp0r0000gn/T/.org.chromium.Chromium.N3svan data:,
+
+DevTools listening on ws://127.0.0.1:60195/devtools/browser/c0ca8606-0e42-4e12-89d9-d64cb0b04205
+[1542499952.619][DEBUG]: DevTools HTTP Request: http://localhost:60195/json/version
+[1542499953.999][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/70.0.3538.102",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36",
+   "V8-Version": "7.0.276.38",
+   "WebKit-Version": "537.36 (@4bbeebac88fdc09c97265e47c205868bbd190497)",
+   "webSocketDebuggerUrl": "ws://localhost:60195/devtools/browser/c0ca8606-0e42-4e12-89d9-d64cb0b04205"
+}
+
+[1542499954.056][DEBUG]: DevTools HTTP Request: http://localhost:60195/json/version
+[1542499954.059][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/70.0.3538.102",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36",
+   "V8-Version": "7.0.276.38",
+   "WebKit-Version": "537.36 (@4bbeebac88fdc09c97265e47c205868bbd190497)",
+   "webSocketDebuggerUrl": "ws://localhost:60195/devtools/browser/c0ca8606-0e42-4e12-89d9-d64cb0b04205"
+}
+
+[1542499954.059][DEBUG]: DevTools HTTP Request: http://localhost:60195/json
+[1542499954.060][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:60195/devtools/page/DADCCAFF4A3354A720E6FCFA52EAED88",
+   "id": "DADCCAFF4A3354A720E6FCFA52EAED88",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:60195/devtools/page/DADCCAFF4A3354A720E6FCFA52EAED88"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:60195/devtools/page/8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "id": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:60195/devtools/page/8D456E10C4E0E057C6A1EDDCDE9DB81B"
+} ]
+
+[1542499954.060][DEBUG]: DevTools HTTP Request: http://localhost:60195/json
+[1542499954.060][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:60195/devtools/page/DADCCAFF4A3354A720E6FCFA52EAED88",
+   "id": "DADCCAFF4A3354A720E6FCFA52EAED88",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:60195/devtools/page/DADCCAFF4A3354A720E6FCFA52EAED88"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:60195/devtools/page/8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "id": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:60195/devtools/page/8D456E10C4E0E057C6A1EDDCDE9DB81B"
+} ]
+
+[1542499954.069][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1542499954.071][DEBUG]: DevTools WebSocket Command: Log.enable (id=1) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.072][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=2) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.073][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=3) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "autoAttach": true,
+   "waitForDebuggerOnStart": false
+}
+[1542499954.074][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.076][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.084][DEBUG]: DevTools WebSocket Response: Log.enable (id=1) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.084][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=2) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499954.084][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=3) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.084][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.084][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.084][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=6) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.094][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "context": {
+      "auxData": {
+         "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1542499954.094][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=6) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.094][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.100][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.100][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.101][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.101][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=9) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1542499954.109][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=9) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1542499954.109][INFO]: [c404e6a562f8739c49cc4e46073476d4] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052)",
+      "userDataDir": "/var/folders/wc/qbj12lpd1v7g3bw3fxx9dp0r0000gn/T/.org.chromium.Chromium.N3svan"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:60195"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Mac OS X",
+   "rotatable": false,
+   "~~~": "..."
+}
+[1542499954.113][INFO]: [c404e6a562f8739c49cc4e46073476d4] COMMAND Navigate {
+   "sessionId": "c404e6a562f8739c49cc4e46073476d4",
+   "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+}
+[1542499954.113][INFO]: Waiting for pending navigations...
+[1542499954.113][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+2018-11-17 16:12:34.155 Google Chrome[14452:2278625] Errors logged by ksadmin: KSKeyedPersistentStore store directory does not exist. [com.google.UpdateEngine.CommonErrorDomain:501 - '/Library/Google/GoogleSoftwareUpdate/TicketStore' - 'KSKeyedPersistentStore.m:327']
+KSPersistentTicketStore failed to load tickets. (productID: com.google.Chrome) [com.google.UpdateEngine.CoreErrorDomain:1051 - '/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore'] (KSKeyedPersistentStore store directory does not exist. - '/Library/Google/GoogleSoftwareUpdate/TicketStore' [com.google.UpdateEngine.CommonErrorDomain:501])
+ksadmin cannot access the ticket store:<KSUpdateError:0x7fbe5d506f00
+	domain="com.google.UpdateEngine.CoreErrorDomain"
+	code=1051
+	userInfo={
+		function = "-[KSProductKeyedStore(ProtectedMethods) errorForStoreError:productID:message:timeoutMessage:]";
+		date = 2018-11-18 00:12:34 +0000;
+		productids = {(
+			"com.google.Chrome"
+		)};
+		filename = "KSProductKeyedStore.m";
+		line = 102;
+		NSFilePath = "/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore";
+		NSUnderlyingError = <KSError:0x7fbe5d412920
+			domain="com.google.UpdateEngine.CommonErrorDomain"
+			code=501
+			userInfo={
+				NSLocalizedDescription = "KSKeyedPersistentStore store directory does not exist.";
+				line = 327;
+				filename = "KSKeyedPersistentStore.m";
+				function = "-[KSKeyedPersistentStore(PrivateMethods) validateStorePath]";
+				NSFilePath = "/Library/Google/GoogleSoftwareUpdate/TicketStore";
+				date = 2018-11-18 00:12:34 +0000;
+			}
+		>;
+		NSLocalizedDescription = "KSPersistentTicketStore failed to load tickets.";
+	}
+>
+[1542499954.203][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499954.203][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=11) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.206][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=11) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499954.207][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "var frame = document.createElement('iframe');frame.name = 'chromedriver dummy frame';frame.src = 'about:blank';document.body.appendChild(frame);window.setTimeout(function() {  document.body.removeC..."
+}
+[1542499954.232][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 1,
+   "nodeId": 8
+}
+[1542499954.233][DEBUG]: DevTools WebSocket Event: Page.frameAttached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "3D675AE4964F66F1F732F9B7B6645C44",
+   "parentFrameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 125,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "20",
+         "url": ""
+      } ]
+   }
+}
+[1542499954.236][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "3D675AE4964F66F1F732F9B7B6645C44"
+}
+[1542499954.236][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frame": {
+      "id": "3D675AE4964F66F1F732F9B7B6645C44",
+      "loaderId": "BE074DDC4B2DA7777CF0E7ACB95373F5",
+      "mimeType": "text/html",
+      "name": "chromedriver dummy frame",
+      "parentId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1542499954.236][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "context": {
+      "auxData": {
+         "frameId": "3D675AE4964F66F1F732F9B7B6645C44",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1542499954.236][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "3D675AE4964F66F1F732F9B7B6645C44"
+}
+[1542499954.236][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499954.236][INFO]: Done waiting for pending navigations. Status: ok
+[1542499954.236][DEBUG]: DevTools WebSocket Command: Page.navigate (id=13) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+}
+[1542499954.237][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 0,
+   "nodeId": 8
+}
+[1542499954.237][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "executionContextId": 2
+}
+[1542499954.237][DEBUG]: DevTools WebSocket Event: Page.frameDetached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "3D675AE4964F66F1F732F9B7B6645C44"
+}
+[1542499954.633][DEBUG]: DevTools WebSocket Response: Page.navigate (id=13) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "loaderId": "9D50839255F3AA7101463FC67B7384F8"
+}
+[1542499954.633][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "document.URL"
+}
+[1542499954.636][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.639][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B"
+}
+[1542499954.717][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.717][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frame": {
+      "id": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+      "loaderId": "9D50839255F3AA7101463FC67B7384F8",
+      "mimeType": "text/html",
+      "securityOrigin": "https://www.amazon.com",
+      "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+   }
+}
+[1542499954.717][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "context": {
+      "auxData": {
+         "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://www.amazon.com"
+   }
+}
+[1542499954.717][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.717][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=15) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499954.719][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "type": "string",
+      "value": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+   }
+}
+[1542499954.723][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=15) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 2,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 1,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "class", "a-no-js", "data-19ax5a9jf", "dingo" ],
+         "backendNodeId": 3,
+         "childNodeCount": 1,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 12,
+            "localName": "head",
+            "nodeId": 4,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 3
+         } ],
+         "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+         "localName": "html",
+         "nodeId": 3,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499954.723][INFO]: Waiting for pending navigations...
+[1542499954.723][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499954.725][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "name": "class",
+   "nodeId": 3,
+   "value": ""
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "name": "class",
+   "nodeId": 3,
+   "value": " a-js"
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "name": "class",
+   "nodeId": 3,
+   "value": " a-js a-audio a-video a-canvas a-svg a-drag-drop a-geolocation a-history a-webworker a-autofocus a-input-placeholder a-textarea-placeholder a-local-storage a-gradients a-hires a-transform3d a-touch..."
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "name": "data-aui-build-date",
+   "nodeId": 3,
+   "value": "3.18.13-2018-09-12"
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 13,
+   "nodeId": 4
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 14,
+   "nodeId": 4
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 15,
+   "nodeId": 4
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 16,
+   "nodeId": 4
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 17,
+   "nodeId": 4
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 18,
+   "nodeId": 4
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 19,
+   "nodeId": 4
+}
+[1542499955.275][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 20,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 21,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 22,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 23,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 24,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 25,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 26,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 27,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 28,
+   "nodeId": 4
+}
+[1542499955.276][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499955.279][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499955.310][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "node": {
+      "attributes": [ "class", "a-m-us a-aui_149818-c a-aui_152852-c a-aui_51744-c a-aui_57326-c a-aui_72554-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_perf_130093-c a-aui_tnr_140932-c..." ],
+      "backendNodeId": 5,
+      "childNodeCount": 0,
+      "localName": "body",
+      "nodeId": 5,
+      "nodeName": "BODY",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 3,
+   "previousNodeId": 4
+}
+[1542499955.310][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 1,
+   "nodeId": 5
+}
+[1542499955.310][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499955.435][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.023][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 29,
+   "nodeId": 4
+}
+[1542499956.023][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.023][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 30,
+   "nodeId": 4
+}
+[1542499956.023][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 31,
+   "nodeId": 4
+}
+[1542499956.034][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.071][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.072][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=20) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.072][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "timestamp": 241397.356907
+}
+[1542499956.116][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=20) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 7,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 6,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "class", " a-js a-audio a-video a-canvas a-svg a-drag-drop a-geolocation a-history a-webworker a-autofocus a-input-placeholder a-textarea-placeholder a-local-storage a-gradients a-hires a-transform3d a-touch...", "data-19ax5a9jf", "dingo", "data-aui-build-date", "3.18.13-2018-09-12" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 32,
+            "localName": "head",
+            "nodeId": 9,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         }, {
+            "attributes": [ "class", "a-m-us a-aui_149818-c a-aui_152852-c a-aui_51744-c a-aui_57326-c a-aui_72554-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_perf_130093-c a-aui_tnr_140932-c..." ],
+            "backendNodeId": 5,
+            "childNodeCount": 2,
+            "localName": "body",
+            "nodeId": 10,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         } ],
+         "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+         "localName": "html",
+         "nodeId": 8,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 6
+      } ],
+      "documentURL": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011",
+      "localName": "",
+      "nodeId": 6,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499956.116][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.270][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.373][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 3,
+   "nodeId": 10
+}
+[1542499956.373][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 2,
+   "nodeId": 10
+}
+[1542499956.373][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 15,
+      "childNodeCount": 1,
+      "localName": "div",
+      "nodeId": 11,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 8,
+   "previousNodeId": 0
+}
+[1542499956.373][DEBUG]: DevTools WebSocket Event: DOM.childNodeRemoved 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "nodeId": 11,
+   "parentNodeId": 8
+}
+[1542499956.373][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.441][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 33,
+   "nodeId": 9
+}
+[1542499956.441][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 34,
+   "nodeId": 9
+}
+[1542499956.441][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 3,
+   "nodeId": 10
+}
+[1542499956.444][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.510][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 35,
+   "nodeId": 9
+}
+[1542499956.511][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "name": "class",
+   "nodeId": 10,
+   "value": "a-m-us a-aui_149818-c a-aui_152852-c a-aui_51744-c a-aui_57326-c a-aui_72554-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_perf_130093-c a-aui_tnr_140932-c..."
+}
+[1542499956.511][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.599][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 4,
+   "nodeId": 10
+}
+[1542499956.608][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.679][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 36,
+   "nodeId": 9
+}
+[1542499956.679][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.689][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 37,
+   "nodeId": 9
+}
+[1542499956.689][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 3,
+   "nodeId": 10
+}
+[1542499956.721][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 38,
+   "nodeId": 9
+}
+[1542499956.721][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 39,
+   "nodeId": 9
+}
+[1542499956.721][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 4,
+   "nodeId": 10
+}
+[1542499956.721][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 5,
+   "nodeId": 10
+}
+[1542499956.721][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 6,
+   "nodeId": 10
+}
+[1542499956.721][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 7,
+   "nodeId": 10
+}
+[1542499956.721][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 8,
+   "nodeId": 10
+}
+[1542499956.722][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 9,
+   "nodeId": 10
+}
+[1542499956.722][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 10,
+   "nodeId": 10
+}
+[1542499956.722][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 11,
+   "nodeId": 10
+}
+[1542499956.722][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 12,
+   "nodeId": 10
+}
+[1542499956.722][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 13,
+   "nodeId": 10
+}
+[1542499956.722][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 14,
+   "nodeId": 10
+}
+[1542499956.733][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.762][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 15,
+   "nodeId": 10
+}
+[1542499956.762][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 14,
+   "nodeId": 10
+}
+[1542499956.762][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.781][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.788][DEBUG]: DevTools WebSocket Event: Page.frameAttached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278",
+   "parentFrameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12529,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 13129,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 115,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "23",
+         "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+      }, {
+         "columnNumber": 25703,
+         "functionName": "t.exports.delayLoad",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 10485,
+         "functionName": "C.DAsf.loadAds",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 10678,
+         "functionName": "i",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 13328,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 115,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "23",
+         "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+      }, {
+         "columnNumber": 13366,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 13369,
+         "functionName": "1../components/adBarTracer",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 253,
+         "functionName": "l",
+         "lineNumber": 0,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 411,
+         "functionName": "o",
+         "lineNumber": 0,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 428,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      } ]
+   }
+}
+[1542499956.789][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=26) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.797][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.797][DEBUG]: DevTools WebSocket Event: Page.frameAttached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "8001014AB5A6AF64FF30A8408EB69440",
+   "parentFrameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12529,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 13129,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 115,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "23",
+         "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+      }, {
+         "columnNumber": 25703,
+         "functionName": "t.exports.delayLoad",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 10485,
+         "functionName": "C.DAsf.loadAds",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 10678,
+         "functionName": "i",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 13328,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 115,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "23",
+         "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+      }, {
+         "columnNumber": 13366,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 13369,
+         "functionName": "1../components/adBarTracer",
+         "lineNumber": 6,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 253,
+         "functionName": "l",
+         "lineNumber": 0,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 411,
+         "functionName": "o",
+         "lineNumber": 0,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      }, {
+         "columnNumber": 428,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "276",
+         "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/DAsf-1.50.b6f5f66._V479604055_.js?csm_attribution=APE-SafeFrame"
+      } ]
+   }
+}
+[1542499956.801][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.817][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=26) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499956.828][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetInfo": {
+      "attached": true,
+      "browserContextId": "E267665DBEC9963E25DE425238D1782B",
+      "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278",
+      "title": "",
+      "type": "iframe",
+      "url": ""
+   },
+   "waitingForDebugger": false
+}
+[1542499956.828][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=1) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.828][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=27) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":1,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499956.829][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=2) 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "autoAttach": true,
+   "waitForDebuggerOnStart": false
+}
+[1542499956.829][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=28) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":2,\"method\":\"Target.setAutoAttach\",\"params\":{\"autoAttach\":true,\"waitForDebuggerOnStart\":false}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499956.830][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.830][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=29) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":3,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499956.831][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.831][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=30) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":4,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499956.832][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetInfo": {
+      "attached": true,
+      "browserContextId": "E267665DBEC9963E25DE425238D1782B",
+      "targetId": "8001014AB5A6AF64FF30A8408EB69440",
+      "title": "",
+      "type": "iframe",
+      "url": ""
+   },
+   "waitingForDebugger": false
+}
+[1542499956.833][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=1) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.833][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=31) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":1,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499956.834][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=2) 266E05F7B550CF70D8C25A626828A9D6 {
+   "autoAttach": true,
+   "waitForDebuggerOnStart": false
+}
+[1542499956.834][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=32) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":2,\"method\":\"Target.setAutoAttach\",\"params\":{\"autoAttach\":true,\"waitForDebuggerOnStart\":false}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499956.835][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.835][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=33) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":3,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499956.837][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.837][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=34) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":4,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=27) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=28) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=29) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=30) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=31) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=32) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=33) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":1,\"result\":{\"root\":{\"nodeId\":1,\"backendNodeId\":1,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":1,\"children\":[{\"nodeId\":2,\"parentId\":1,\"backendNodeId\":2,\"n...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.838][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=1) 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "about:blank",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "about:blank",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499956.839][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":2,\"result\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.839][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=2) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.839][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":3,\"result\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.839][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.843][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=34) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.855][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"id\":\"BB5DDF7E4C68FCC37DA88B5AE1774278\",\"parentId\":\"8D456E10C4E0E057C6A1EDDCDE9DB81B\",\"loaderId\":\"F45B2EFA850D7140C1CB809E4A70273C\",\"name\":\"{\\\"slo...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.855][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "frame": {
+      "id": "BB5DDF7E4C68FCC37DA88B5AE1774278",
+      "loaderId": "F45B2EFA850D7140C1CB809E4A70273C",
+      "mimeType": "text/html",
+      "name": "{\"slot\":\"FreshStore_leftnav_\",\"slotName\":\"leftnav\",\"src\":\"https://aax-us-east.amazon-adsystem.com/x/getad?c=100&pt=FreshStore&u=https%3A%2F%2Fwww.amazon.com&src=501&sz=160x600&ad-sid=01013e31a9ad34...",
+      "parentId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+      "securityOrigin": "https://images-na.ssl-images-amazon.com",
+      "url": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html"
+   }
+}
+[1542499956.855][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.documentUpdated\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.856][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.856][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=5) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.856][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=35) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":5,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499956.857][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":4,\"result\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.857][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.857][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":1,\"result\":{\"root\":{\"nodeId\":1,\"backendNodeId\":5,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":1,\"children\":[{\"nodeId\":2,\"parentId\":1,\"backendNodeId\":6,\"n...",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.858][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=1) 266E05F7B550CF70D8C25A626828A9D6 {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "about:blank",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 6,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 7,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "8001014AB5A6AF64FF30A8408EB69440",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "about:blank",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499956.858][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.documentUpdated\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.858][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.858][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=5) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.858][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=36) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":5,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499956.859][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":2,\"result\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.859][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=2) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.859][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":3,\"result\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.859][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.859][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":4,\"result\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.859][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.860][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=35) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.860][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=36) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.874][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.874][DEBUG]: DevTools WebSocket Event: Page.frameDetached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.876][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.876][DEBUG]: DevTools WebSocket Event: Page.frameDetached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.891][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":5,\"result\":{\"root\":{\"nodeId\":5,\"backendNodeId\":9,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":0,\"children\":[],\"documentURL\":\"https://images-na.ssl-images...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.891][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=5) 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "root": {
+      "backendNodeId": 9,
+      "baseURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "childNodeCount": 0,
+      "children": [  ],
+      "documentURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499956.891][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":5,\"result\":{\"root\":{\"nodeId\":5,\"backendNodeId\":10,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":0,\"children\":[],\"documentURL\":\"https://images-na.ssl-image...",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.891][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=5) 266E05F7B550CF70D8C25A626828A9D6 {
+   "root": {
+      "backendNodeId": 10,
+      "baseURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "childNodeCount": 0,
+      "children": [  ],
+      "documentURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499956.891][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=6) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.891][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=37) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":6,\"method\":\"Runtime.enable\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499956.893][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=37) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.903][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeInserted\",\"params\":{\"parentNodeId\":5,\"previousNodeId\":0,\"node\":{\"nodeId\":6,\"backendNodeId\":11,\"nodeType\":10,\"nodeName\":\"html\",\"localName\":\"\",\"nodeValue\":\"\",\"publicId\":\"\",\"sy...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.903][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "node": {
+      "backendNodeId": 11,
+      "localName": "",
+      "nodeId": 6,
+      "nodeName": "html",
+      "nodeType": 10,
+      "nodeValue": "",
+      "publicId": "",
+      "systemId": ""
+   },
+   "parentNodeId": 5,
+   "previousNodeId": 0
+}
+[1542499956.903][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeInserted\",\"params\":{\"parentNodeId\":5,\"previousNodeId\":6,\"node\":{\"nodeId\":7,\"backendNodeId\":12,\"nodeType\":1,\"nodeName\":\"HTML\",\"localName\":\"html\",\"nodeValue\":\"\",\"childNodeCoun...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.903][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 12,
+      "childNodeCount": 0,
+      "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278",
+      "localName": "html",
+      "nodeId": 7,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 5,
+   "previousNodeId": 6
+}
+[1542499956.903][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeCountUpdated\",\"params\":{\"nodeId\":7,\"childNodeCount\":1}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.903][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "childNodeCount": 1,
+   "nodeId": 7
+}
+[1542499956.903][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeCountUpdated\",\"params\":{\"nodeId\":7,\"childNodeCount\":2}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.904][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "childNodeCount": 2,
+   "nodeId": 7
+}
+[1542499956.910][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeInserted\",\"params\":{\"parentNodeId\":5,\"previousNodeId\":0,\"node\":{\"nodeId\":6,\"backendNodeId\":13,\"nodeType\":10,\"nodeName\":\"html\",\"localName\":\"\",\"nodeValue\":\"\",\"publicId\":\"\",\"sy...",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.910][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 266E05F7B550CF70D8C25A626828A9D6 {
+   "node": {
+      "backendNodeId": 13,
+      "localName": "",
+      "nodeId": 6,
+      "nodeName": "html",
+      "nodeType": 10,
+      "nodeValue": "",
+      "publicId": "",
+      "systemId": ""
+   },
+   "parentNodeId": 5,
+   "previousNodeId": 0
+}
+[1542499956.910][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeInserted\",\"params\":{\"parentNodeId\":5,\"previousNodeId\":6,\"node\":{\"nodeId\":7,\"backendNodeId\":14,\"nodeType\":1,\"nodeName\":\"HTML\",\"localName\":\"html\",\"nodeValue\":\"\",\"childNodeCoun...",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.910][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 266E05F7B550CF70D8C25A626828A9D6 {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 14,
+      "childNodeCount": 0,
+      "frameId": "8001014AB5A6AF64FF30A8408EB69440",
+      "localName": "html",
+      "nodeId": 7,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 5,
+   "previousNodeId": 6
+}
+[1542499956.910][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeCountUpdated\",\"params\":{\"nodeId\":7,\"childNodeCount\":1}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.911][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 266E05F7B550CF70D8C25A626828A9D6 {
+   "childNodeCount": 1,
+   "nodeId": 7
+}
+[1542499956.911][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeCountUpdated\",\"params\":{\"nodeId\":7,\"childNodeCount\":2}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.911][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 266E05F7B550CF70D8C25A626828A9D6 {
+   "childNodeCount": 2,
+   "nodeId": 7
+}
+[1542499956.912][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Runtime.executionContextCreated\",\"params\":{\"context\":{\"id\":2,\"origin\":\"https://images-na.ssl-images-amazon.com\",\"name\":\"\",\"auxData\":{\"isDefault\":true,\"type\":\"default\",\"frameId\":\"8001014A...",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.912][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 266E05F7B550CF70D8C25A626828A9D6 {
+   "context": {
+      "auxData": {
+         "frameId": "8001014AB5A6AF64FF30A8408EB69440",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://images-na.ssl-images-amazon.com"
+   }
+}
+[1542499956.912][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":6,\"result\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.912][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=6) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.912][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.912][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=38) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":7,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499956.913][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=38) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.913][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":7,\"result\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499956.913][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499956.913][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=6) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.913][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=39) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":6,\"method\":\"Runtime.enable\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=39) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Runtime.executionContextCreated\",\"params\":{\"context\":{\"id\":1,\"origin\":\"https://images-na.ssl-images-amazon.com\",\"name\":\"\",\"auxData\":{\"isDefault\":true,\"type\":\"default\",\"frameId\":\"BB5DDF7E...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "context": {
+      "auxData": {
+         "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://images-na.ssl-images-amazon.com"
+   }
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":6,\"result\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=6) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=40) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":7,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499956.914][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=40) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499956.915][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":7,\"result\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499956.915][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499956.915][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=41) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499956.917][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=41) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.094][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 38,
+   "nodeId": 9
+}
+[1542499957.094][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=42) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.102][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=42) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.309][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeInserted\",\"params\":{\"parentNodeId\":5,\"previousNodeId\":7,\"node\":{\"nodeId\":8,\"backendNodeId\":15,\"nodeType\":8,\"nodeName\":\"#comment\",\"localName\":\"\",\"nodeValue\":\" creativeModDate...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499957.309][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "node": {
+      "backendNodeId": 15,
+      "localName": "",
+      "nodeId": 8,
+      "nodeName": "#comment",
+      "nodeType": 8,
+      "nodeValue": " creativeModDate = 1540576349000 "
+   },
+   "parentNodeId": 5,
+   "previousNodeId": 7
+}
+[1542499957.309][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.documentUpdated\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499957.309][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499957.309][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=8) 2F69AF4D35C503B32A568E9A03D2D5DB {
+
+}
+[1542499957.309][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=43) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":8,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB"
+}
+[1542499957.309][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":241398.590493}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499957.310][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "timestamp": 241398.590493
+}
+[1542499957.310][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=43) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499957.310][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":8,\"result\":{\"root\":{\"nodeId\":9,\"backendNodeId\":9,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":3,\"children\":[{\"nodeId\":10,\"parentId\":9,\"backendNodeId\":11,...",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499957.310][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=8) 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "root": {
+      "backendNodeId": 9,
+      "baseURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "childNodeCount": 3,
+      "children": [ {
+         "backendNodeId": 11,
+         "localName": "",
+         "nodeId": 10,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 9,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 12,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 16,
+            "childNodeCount": 10,
+            "localName": "head",
+            "nodeId": 12,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 11
+         }, {
+            "attributes": [ "marginwidth", "0", "marginheight", "0" ],
+            "backendNodeId": 17,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 13,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 11
+         } ],
+         "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278",
+         "localName": "html",
+         "nodeId": 11,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 9
+      }, {
+         "backendNodeId": 15,
+         "localName": "",
+         "nodeId": 14,
+         "nodeName": "#comment",
+         "nodeType": 8,
+         "nodeValue": " creativeModDate = 1540576349000 ",
+         "parentId": 9
+      } ],
+      "documentURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "localName": "",
+      "nodeId": 9,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499957.310][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=44) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeInserted\",\"params\":{\"parentNodeId\":5,\"previousNodeId\":7,\"node\":{\"nodeId\":8,\"backendNodeId\":18,\"nodeType\":8,\"nodeName\":\"#comment\",\"localName\":\"\",\"nodeValue\":\" creativeModDate...",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 266E05F7B550CF70D8C25A626828A9D6 {
+   "node": {
+      "backendNodeId": 18,
+      "localName": "",
+      "nodeId": 8,
+      "nodeName": "#comment",
+      "nodeType": 8,
+      "nodeValue": " creativeModDate = 1540575990000 "
+   },
+   "parentNodeId": 5,
+   "previousNodeId": 7
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.documentUpdated\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=8) 266E05F7B550CF70D8C25A626828A9D6 {
+
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=45) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":8,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6"
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":241398.599442}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 266E05F7B550CF70D8C25A626828A9D6 {
+   "timestamp": 241398.599442
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=45) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499957.315][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=44) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.316][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":8,\"result\":{\"root\":{\"nodeId\":9,\"backendNodeId\":10,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":3,\"children\":[{\"nodeId\":10,\"parentId\":9,\"backendNodeId\":13...",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499957.316][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=8) 266E05F7B550CF70D8C25A626828A9D6 {
+   "root": {
+      "backendNodeId": 10,
+      "baseURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "childNodeCount": 3,
+      "children": [ {
+         "backendNodeId": 13,
+         "localName": "",
+         "nodeId": 10,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 9,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 14,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 19,
+            "childNodeCount": 10,
+            "localName": "head",
+            "nodeId": 12,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 11
+         }, {
+            "attributes": [ "marginwidth", "0", "marginheight", "0" ],
+            "backendNodeId": 20,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 13,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 11
+         } ],
+         "frameId": "8001014AB5A6AF64FF30A8408EB69440",
+         "localName": "html",
+         "nodeId": 11,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 9
+      }, {
+         "backendNodeId": 18,
+         "localName": "",
+         "nodeId": 14,
+         "nodeName": "#comment",
+         "nodeType": 8,
+         "nodeValue": " creativeModDate = 1540575990000 ",
+         "parentId": 9
+      } ],
+      "documentURL": "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.50.b6f5f66._V479604058_.html",
+      "localName": "",
+      "nodeId": 9,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499957.407][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":241398.620382}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499957.407][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "timestamp": 241398.620382
+}
+[1542499957.407][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"BB5DDF7E4C68FCC37DA88B5AE1774278\"}}",
+   "sessionId": "2F69AF4D35C503B32A568E9A03D2D5DB",
+   "targetId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499957.407][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 2F69AF4D35C503B32A568E9A03D2D5DB {
+   "frameId": "BB5DDF7E4C68FCC37DA88B5AE1774278"
+}
+[1542499957.407][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=46) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.407][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":241398.692335}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499957.407][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 266E05F7B550CF70D8C25A626828A9D6 {
+   "timestamp": 241398.692335
+}
+[1542499957.408][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"8001014AB5A6AF64FF30A8408EB69440\"}}",
+   "sessionId": "266E05F7B550CF70D8C25A626828A9D6",
+   "targetId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499957.408][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 266E05F7B550CF70D8C25A626828A9D6 {
+   "frameId": "8001014AB5A6AF64FF30A8408EB69440"
+}
+[1542499957.418][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 39,
+   "nodeId": 9
+}
+[1542499957.418][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 40,
+   "nodeId": 9
+}
+[1542499957.418][DEBUG]: DevTools WebSocket Event: Page.frameAttached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "36CC6AEBF1B095A67B2AA9DAA756E503",
+   "parentFrameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 250,
+         "functionName": "",
+         "lineNumber": 136,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 325,
+         "functionName": "domManip",
+         "lineNumber": 141,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 192,
+         "functionName": "prepend",
+         "lineNumber": 136,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 124,
+         "functionName": "c.fn.(anonymous function)",
+         "lineNumber": 143,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 51,
+         "functionName": "c",
+         "lineNumber": 6,
+         "scriptId": "88",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/41+YTY6Zl7L.js?AUIClients/AmazonPopoversAUIShim"
+      }, {
+         "columnNumber": 97,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "88",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/41+YTY6Zl7L.js?AUIClients/AmazonPopoversAUIShim"
+      }, {
+         "columnNumber": 200,
+         "functionName": "resolveWith",
+         "lineNumber": 46,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 247,
+         "functionName": "ready",
+         "lineNumber": 36,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      } ]
+   }
+}
+[1542499957.424][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "36CC6AEBF1B095A67B2AA9DAA756E503"
+}
+[1542499957.424][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frame": {
+      "id": "36CC6AEBF1B095A67B2AA9DAA756E503",
+      "loaderId": "F12E5E0397D2705B7C9750C63A900D58",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1542499957.424][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "context": {
+      "auxData": {
+         "frameId": "36CC6AEBF1B095A67B2AA9DAA756E503",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://www.amazon.com"
+   }
+}
+[1542499957.424][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "36CC6AEBF1B095A67B2AA9DAA756E503"
+}
+[1542499957.425][DEBUG]: DevTools WebSocket Event: Page.frameAttached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "49F97A062ABA2A160942820E2A1EA58C",
+   "parentFrameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 250,
+         "functionName": "",
+         "lineNumber": 136,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 325,
+         "functionName": "domManip",
+         "lineNumber": 141,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 192,
+         "functionName": "prepend",
+         "lineNumber": 136,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 124,
+         "functionName": "c.fn.(anonymous function)",
+         "lineNumber": 143,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 51,
+         "functionName": "c",
+         "lineNumber": 6,
+         "scriptId": "88",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/41+YTY6Zl7L.js?AUIClients/AmazonPopoversAUIShim"
+      }, {
+         "columnNumber": 97,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "88",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/41+YTY6Zl7L.js?AUIClients/AmazonPopoversAUIShim"
+      }, {
+         "columnNumber": 200,
+         "functionName": "resolveWith",
+         "lineNumber": 46,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 247,
+         "functionName": "ready",
+         "lineNumber": 36,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      } ]
+   }
+}
+[1542499957.431][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "49F97A062ABA2A160942820E2A1EA58C"
+}
+[1542499957.431][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frame": {
+      "id": "49F97A062ABA2A160942820E2A1EA58C",
+      "loaderId": "FD4B0EBEC2082793F3879D7F28A6829E",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1542499957.431][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "context": {
+      "auxData": {
+         "frameId": "49F97A062ABA2A160942820E2A1EA58C",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "https://www.amazon.com"
+   }
+}
+[1542499957.431][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "49F97A062ABA2A160942820E2A1EA58C"
+}
+[1542499957.432][DEBUG]: DevTools WebSocket Event: Page.frameAttached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "0A7ED94512F8D5E94045734A219557FF",
+   "parentFrameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 250,
+         "functionName": "",
+         "lineNumber": 136,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 325,
+         "functionName": "domManip",
+         "lineNumber": 141,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 192,
+         "functionName": "prepend",
+         "lineNumber": 136,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 124,
+         "functionName": "c.fn.(anonymous function)",
+         "lineNumber": 143,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 51,
+         "functionName": "c",
+         "lineNumber": 6,
+         "scriptId": "88",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/41+YTY6Zl7L.js?AUIClients/AmazonPopoversAUIShim"
+      }, {
+         "columnNumber": 97,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "88",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/41+YTY6Zl7L.js?AUIClients/AmazonPopoversAUIShim"
+      }, {
+         "columnNumber": 200,
+         "functionName": "resolveWith",
+         "lineNumber": 46,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      }, {
+         "columnNumber": 247,
+         "functionName": "ready",
+         "lineNumber": 36,
+         "scriptId": "144",
+         "url": "https://images-na.ssl-images-amazon.com/images/I/61gI9g8kEwL._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRj..."
+      } ]
+   }
+}
+[1542499957.441][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "0A7ED94512F8D5E94045734A219557FF"
+}
+[1542499957.442][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frame": {
+      "id": "0A7ED94512F8D5E94045734A219557FF",
+      "loaderId": "0B5675A6CCCACFED52275CE55537D595",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1542499957.442][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "context": {
+      "auxData": {
+         "frameId": "0A7ED94512F8D5E94045734A219557FF",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 4,
+      "name": "",
+      "origin": "https://www.amazon.com"
+   }
+}
+[1542499957.442][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "0A7ED94512F8D5E94045734A219557FF"
+}
+[1542499957.442][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "timestamp": 241398.723318
+}
+[1542499957.443][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B"
+}
+[1542499957.443][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=46) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.443][INFO]: Done waiting for pending navigations. Status: ok
+[1542499957.443][INFO]: [c404e6a562f8739c49cc4e46073476d4] RESPONSE Navigate
+[1542499957.445][INFO]: [c404e6a562f8739c49cc4e46073476d4] COMMAND FindElement {
+   "sessionId": "c404e6a562f8739c49cc4e46073476d4",
+   "using": "xpath",
+   "value": "//input[@class='nav-input']"
+}
+[1542499957.445][INFO]: Waiting for pending navigations...
+[1542499957.445][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=47) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.518][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 15,
+   "nodeId": 10
+}
+[1542499957.518][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 14,
+   "nodeId": 10
+}
+[1542499957.518][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=47) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.518][INFO]: Done waiting for pending navigations. Status: ok
+[1542499957.520][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=48) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1542499957.545][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=48) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "ELEMENT": "0.9132584137029269-1"
+         }
+      }
+   }
+}
+[1542499957.546][INFO]: Waiting for pending navigations...
+[1542499957.546][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=49) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.552][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=49) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.552][INFO]: Done waiting for pending navigations. Status: ok
+[1542499957.552][INFO]: [c404e6a562f8739c49cc4e46073476d4] RESPONSE FindElement {
+   "ELEMENT": "0.9132584137029269-1"
+}
+[1542499957.553][INFO]: [c404e6a562f8739c49cc4e46073476d4] COMMAND ClearElement {
+   "id": "0.9132584137029269-1",
+   "sessionId": "c404e6a562f8739c49cc4e46073476d4"
+}
+[1542499957.553][INFO]: Waiting for pending navigations...
+[1542499957.553][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=50) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.691][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=50) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.691][INFO]: Done waiting for pending navigations. Status: ok
+[1542499957.692][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=51) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1542499957.721][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=51) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[1542499957.723][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=52) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1542499957.733][DEBUG]: DevTools WebSocket Event: Page.frameAttached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0",
+   "parentFrameId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 344,
+         "functionName": "",
+         "lineNumber": 44626,
+         "scriptId": "141",
+         "url": "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"
+      } ]
+   }
+}
+[1542499957.740][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499957.755][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=52) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 12,
+         "value": "Element must be user-editable in order to clear it."
+      }
+   }
+}
+[1542499957.755][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=53) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.781][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=53) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499957.781][INFO]: Waiting for pending navigations...
+[1542499957.781][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=54) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499957.790][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "childNodeCount": 41,
+   "nodeId": 9
+}
+[1542499957.790][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=54) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499958.229][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetInfo": {
+      "attached": true,
+      "browserContextId": "E267665DBEC9963E25DE425238D1782B",
+      "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0",
+      "title": "",
+      "type": "iframe",
+      "url": ""
+   },
+   "waitingForDebugger": false
+}
+[1542499958.229][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=1) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.229][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=55) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":1,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=2) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "autoAttach": true,
+   "waitForDebuggerOnStart": false
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=56) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":2,\"method\":\"Target.setAutoAttach\",\"params\":{\"autoAttach\":true,\"waitForDebuggerOnStart\":false}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=57) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":3,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=58) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":4,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=55) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=56) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.230][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=57) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.231][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=58) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":1,\"result\":{\"root\":{\"nodeId\":1,\"backendNodeId\":1,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":1,\"children\":[{\"nodeId\":2,\"parentId\":1,\"backendNodeId\":2,\"n...",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=1) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "about:blank",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "about:blank",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":2,\"result\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=2) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":3,\"result\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":4,\"result\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=5) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=59) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":5,\"method\":\"Runtime.enable\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.233][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=59) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"id\":\"A0A51625A9C2B0ADF92C8F8F55C39FA0\",\"parentId\":\"8D456E10C4E0E057C6A1EDDCDE9DB81B\",\"loaderId\":\"AE5EF5ECDEA8587A89876A223420C369\",\"name\":\"\",\"url...",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "frame": {
+      "id": "A0A51625A9C2B0ADF92C8F8F55C39FA0",
+      "loaderId": "AE5EF5ECDEA8587A89876A223420C369",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "8D456E10C4E0E057C6A1EDDCDE9DB81B",
+      "securityOrigin": "https://s.amazon-adsystem.com",
+      "url": "https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=01013e31a9ad340b25115db2547e9ab63af3c45d1149e722a77ef66fad00a232ac47&old_oo=0&cb=1542499954578&dcc=t"
+   }
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.documentUpdated\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=6) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=60) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":6,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Runtime.executionContextCreated\",\"params\":{\"context\":{\"id\":1,\"origin\":\"https://s.amazon-adsystem.com\",\"name\":\"\",\"auxData\":{\"isDefault\":true,\"type\":\"default\",\"frameId\":\"A0A51625A9C2B0ADF9...",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "context": {
+      "auxData": {
+         "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://s.amazon-adsystem.com"
+   }
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":5,\"result\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=5) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.241][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=60) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.252][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.253][DEBUG]: DevTools WebSocket Event: Page.frameDetached 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.261][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":6,\"result\":{\"root\":{\"nodeId\":5,\"backendNodeId\":5,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":0,\"children\":[],\"documentURL\":\"https://s.amazon-adsystem.co...",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.261][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=6) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=01013e31a9ad340b25115db2547e9ab63af3c45d1149e722a77ef66fad00a232ac47&old_oo=0&cb=1542499954578&dcc=t",
+      "childNodeCount": 0,
+      "children": [  ],
+      "documentURL": "https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=01013e31a9ad340b25115db2547e9ab63af3c45d1149e722a77ef66fad00a232ac47&old_oo=0&cb=1542499954578&dcc=t",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499958.261][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.261][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=61) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":7,\"method\":\"Page.enable\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.262][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=61) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.263][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeInserted\",\"params\":{\"parentNodeId\":5,\"previousNodeId\":0,\"node\":{\"nodeId\":6,\"backendNodeId\":6,\"nodeType\":1,\"nodeName\":\"HTML\",\"localName\":\"html\",\"nodeValue\":\"\",\"childNodeCount...",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.264][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 6,
+      "childNodeCount": 0,
+      "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0",
+      "localName": "html",
+      "nodeId": 6,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 5,
+   "previousNodeId": 0
+}
+[1542499958.264][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeCountUpdated\",\"params\":{\"nodeId\":6,\"childNodeCount\":1}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.264][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "childNodeCount": 1,
+   "nodeId": 6
+}
+[1542499958.264][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.childNodeCountUpdated\",\"params\":{\"nodeId\":6,\"childNodeCount\":2}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.264][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "childNodeCount": 2,
+   "nodeId": 6
+}
+[1542499958.264][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"CBDF7D20E68E10833362815A56964931\",\"parentFrameId\":\"A0A51625A9C2B0ADF92C8F8F55C39FA0\"}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.264][DEBUG]: DevTools WebSocket Event: Page.frameAttached 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "frameId": "CBDF7D20E68E10833362815A56964931",
+   "parentFrameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.265][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"CBDF7D20E68E10833362815A56964931\"}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.265][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "frameId": "CBDF7D20E68E10833362815A56964931"
+}
+[1542499958.265][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"DOM.documentUpdated\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.265][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.265][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=8) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.265][DEBUG]: DevTools WebSocket Command: Target.sendMessageToTarget (id=62) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":8,\"method\":\"DOM.getDocument\",\"params\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1"
+}
+[1542499958.265][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":241399.54999}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.266][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "timestamp": 241399.54999
+}
+[1542499958.266][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":7,\"result\":{}}",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.266][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+
+}
+[1542499958.266][DEBUG]: DevTools WebSocket Response: Target.sendMessageToTarget (id=62) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+
+}
+[1542499958.336][DEBUG]: DevTools WebSocket Event: Target.receivedMessageFromTarget 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "message": "{\"id\":8,\"result\":{\"root\":{\"nodeId\":7,\"backendNodeId\":5,\"nodeType\":9,\"nodeName\":\"#document\",\"localName\":\"\",\"nodeValue\":\"\",\"childNodeCount\":1,\"children\":[{\"nodeId\":8,\"parentId\":7,\"backendNodeId\":6,\"n...",
+   "sessionId": "0A2AA1BE18C4DBCB65A0F9A51F04FED1",
+   "targetId": "A0A51625A9C2B0ADF92C8F8F55C39FA0"
+}
+[1542499958.336][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=8) 0A2AA1BE18C4DBCB65A0F9A51F04FED1 {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=01013e31a9ad340b25115db2547e9ab63af3c45d1149e722a77ef66fad00a232ac47&old_oo=0&cb=1542499954578&dcc=t",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 6,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 7,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 9,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         }, {
+            "attributes": [ "style", "background-color:transparent", "marginwidth", "0", "marginheight", "0" ],
+            "backendNodeId": 8,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 10,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         } ],
+         "frameId": "A0A51625A9C2B0ADF92C8F8F55C39FA0",
+         "localName": "html",
+         "nodeId": 8,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 7
+      } ],
+      "documentURL": "https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=01013e31a9ad340b25115db2547e9ab63af3c45d1149e722a77ef66fad00a232ac47&old_oo=0&cb=1542499954578&dcc=t",
+      "localName": "",
+      "nodeId": 7,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1542499958.336][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=63) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499958.340][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=63) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499958.341][INFO]: Done waiting for pending navigations. Status: ok
+[1542499958.342][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=64) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1542499958.346][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=64) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[1542499958.347][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=65) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1542499958.352][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=65) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 12,
+         "value": "Element must be user-editable in order to clear it."
+      }
+   }
+}
+[1542499958.352][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=66) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499958.360][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=66) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499958.360][INFO]: Waiting for pending navigations...
+[1542499958.360][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=67) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "expression": "1"
+}
+[1542499958.361][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=67) 8D456E10C4E0E057C6A1EDDCDE9DB81B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1542499958.361][INFO]: Done waiting for pending navigations. Status: ok
+[1542499958.361][INFO]: [c404e6a562f8739c49cc4e46073476d4] RESPONSE ClearElement ERROR invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.102)
