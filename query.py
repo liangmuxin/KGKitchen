@@ -40,6 +40,7 @@ class QUERY:
                 schema:unit_price ?food_unit_price .
             ?R a schema:recipe ;
                 schema:recipe_url ?recipe_url ;
+                schema:recipe_type ?recipe_type ;
                 schema:type_url ?type_url ;
                 schema:ingredient ?ingredient ;
                 rdf:value ?recipe_name ;
@@ -69,7 +70,7 @@ def main():
     query2 = QUERY(sparql, JSON, ["food_name", "topclass", "unit_price"], limit=10)
     # print(query2.run_query())
     query3 = QUERY(sparql, JSON, ["recipe_name", "ingredient", "recipe_url"], _filter=[("topclass", "anise extract")], limit=10)
-    query4 = QUERY(sparql, JSON, ["food_name", "amount", "unit_price", "food_unit"], _filter=[("recipe_url", "https://www.allrecipes.com/recipe/24697/licorice-caramels/")])
+    query4 = QUERY(sparql, JSON, ["food_name", "amount", "unit_price", "food_unit"], _filter=[("recipe_url", "https://www.allrecipes.com/recipe/147103/delicious-egg-salad-for-sandwiches/")])
     # estimating cost
 
     res = query4.run_query(verbose=True)
