@@ -7,6 +7,10 @@ class QUERY:
         self.sparql = sparql
         self.return_format = return_format
         self.SELECTION_LIST = list(map(lambda x: "?"+x, selection))
+        if "distinct" in args_val:
+            self.DISTINCT = "distinct"
+        else:
+            self.DISTINCT = ""
         if "limit" in args_val:
             self.LIMIT = "LIMIT" + str(args_val["limit"])
         else:
@@ -48,7 +52,7 @@ class QUERY:
     def run_query(self, verbose = False):
         SELECTION = """
             SELECT {}
-        """.format(" ".join(self.SELECTION_LIST))
+        """.format(self.DISTINCT + " ".join(self.SELECTION_LIST))
         if not self.FILTER:
             FILTER = ""
         else:
@@ -69,11 +73,27 @@ def main():
     # print(query1.run_query())
     query2 = QUERY(sparql, JSON, ["food_name", "topclass", "unit_price"], limit=10)
     # print(query2.run_query())
-    query3 = QUERY(sparql, JSON, ["recipe_name", "ingredient", "recipe_url"], _filter=[("topclass", "anise extract")], limit=10)
-    query4 = QUERY(sparql, JSON, ["food_name", "amount", "unit_price", "food_unit"], _filter=[("recipe_url", "https://www.allrecipes.com/recipe/147103/delicious-egg-salad-for-sandwiches/")])
+    query3 = QUERY(sparql, JSON, ["recipe_name", "ingredient", "recipe_url"], _filter=[("topclass", "milk")], limit=10)
+    query4 = QUERY(sparql, JSON, ["food_name", "amount", "unit_price", "food_unit", "topclass"], _filter=[("recipe_url", "https://www.allrecipes.com/recipe/75194/fresh-veggie-bagel-sandwich/")])
+    query5 = QUERY(sparql, JSON, ["food_name", "food_unit_price", "food_unit", "food_price"], _filter=[("topclass", "mushroom")], distinct=True)
+    query6 = QUERY(sparql, JSON, ["recipe_type", "recipe_name"], _filter=[("topclass", "mushroom")])
     # estimating cost
+    res = query4.run_query()
+    for v in res["results"]["bindings"]:
+        for k in v.keys():
+            print(v[k]["value"])
+    # res1 = query5.run_query()
+    # # import pdb
+    # # pdb.set_trace()
+    # for v in res1["results"]["bindings"]:
+    #     for k in v.keys():
+    #         print(v[k]["value"])
+    # res2 = query6.run_query()
 
-    res = query4.run_query(verbose=True)
+    # for v in res2["results"]["bindings"]:
+    #     for k in v.keys():
+    #         print(v[k]["value"])
+
     print("finished")
 
 
