@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>regex.html</title>
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  	<script type="text/javascript" src="../jquery/jquery-1.11/jquery.min.js"></script>
+  	<script type="text/javascript" src="../jquery/jquery-highlight/jquery-hightlight.js"></script>
+  	<style>
+  		.highlight {background-color: #FFFF88; }
+  	</style>
+  	<script>
+  		
+  		$(document.ready(function(){
+  			$('#search').click(function(){
+  				var key = $('#key').val();
+  	  			if(key.length > 0) {
+  	  				var body = $('#body');
+  	  				body.removeHighlight();
+  	  				body.highlight(key);
+  	  			} else {
+  	  				alert("请输入关键字！")
+  	  			}
+  			});
+  		}));
+  	</script>
+  </head>
+  <body>
+  	<div>
+  		<input id="key" type="text">
+  		<input id="search" type="button" value="搜索">
+  	</div>
+    <div id="head">
+    	This is a test head!
+    	<div>
+    		input the search key.
+    	</div>
+    	<div>
+    		click "搜索" button.
+    	</div>
+    </div>
+    <h1>如下是搜索区域!</h1>
+    <div id="body">
+    	This is a test body!
+    	<div>
+    		This is a test, a test, test, tes, te, t!
+    		Do you know and listen this test, I think you don't know this test!
+    	</div>
+    	<div>
+    		这是一个简答的测试,测试.
+    		<p>你知道或者听过这个测试吗，我认为你没有听过这个测试！</p>
+    	</div>
+    	<div>
+    		This is a test, a test, test, tes, te, t!
+    		I know't know this test, yes, this test is a not famous test!
+    		<p>Follow me test, to test the test! I don't know what do you say?</p>
+    	</div>
+    	<div>
+    		<div>
+	    		这是一个简答的测试,测试.
+	    		我不知道这个测试，是的，这不是一个注明的测试，
+	    		<span>跟随我，去测试这个测试，我都不知道我在说什么！</span>
+    		</div>
+    	</div>
+    	<div>
+    		What do you say? test, only a test?
+    		<p>你们说什么呢？测试，一个测试？</p>
+    	</div>
+    </div>
+  </body>
+</html>
