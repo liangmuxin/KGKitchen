@@ -18,16 +18,18 @@ For every recipes:
   
     rdfs:value str recipe_name
 
-    URL: str, _url_of_recipe;
+    URL: str, url_of_recipe
   
     INGEDRENTS:String version of ingredients
   
     TYPE: str, recipe_type
+    
+    
   
  
 **Ontology:food:**
 
-    URL: str, _url_of_food;
+    URL: str, url_of_food;
   
     TYPE: str, food_type;
   
