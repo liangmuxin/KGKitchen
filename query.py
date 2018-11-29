@@ -75,19 +75,20 @@ def main():
     # print(query2.run_query())
     query3 = QUERY(sparql, JSON, ["recipe_name", "ingredient", "recipe_url"], _filter=[("topclass", "milk")], limit=10)
     query4 = QUERY(sparql, JSON, ["food_name", "amount", "unit_price", "food_unit", "topclass"], _filter=[("recipe_url", "https://www.allrecipes.com/recipe/75194/fresh-veggie-bagel-sandwich/")])
-    query5 = QUERY(sparql, JSON, ["food_name", "food_unit_price", "food_unit", "food_price"], _filter=[("topclass", "mushroom")], distinct=True)
-    query6 = QUERY(sparql, JSON, ["recipe_type", "recipe_name"], _filter=[("topclass", "mushroom")])
+    query5 = QUERY(sparql, JSON, ["food_name", "food_unit_price", "food_unit", "food_price"], _filter=[("topclass", "chicken")], distinct=True)
+    query6 = QUERY(sparql, JSON, ["recipe_type", "recipe_name", "food_unit", "food_unit_price"], _filter=[("topclass", "salt")], limit=10)
+    query7 = QUERY(sparql, JSON, ["food_name", "food_unit"], _filter=[("food_unit", "tablespoon")])
     # estimating cost
-    res = query4.run_query()
-    for v in res["results"]["bindings"]:
-        for k in v.keys():
-            print(v[k]["value"])
-    # res1 = query5.run_query()
-    # # import pdb
-    # # pdb.set_trace()
-    # for v in res1["results"]["bindings"]:
+    # res = query4.run_query()
+    # for v in res["results"]["bindings"]:
     #     for k in v.keys():
     #         print(v[k]["value"])
+    res1 = query5.run_query()
+    # import pdb
+    # pdb.set_trace()
+    for v in res1["results"]["bindings"]:
+        for k in v.keys():
+            print(v[k]["value"])
     # res2 = query6.run_query()
 
     # for v in res2["results"]["bindings"]:

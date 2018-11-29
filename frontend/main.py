@@ -55,7 +55,7 @@ def sparql_dish_ingre(dishes,ingredient):
             origin_ingre.append(ingredients_return)
 
             query = QUERY(sparql, JSON, ["food_name", "amount", "food_unit_price", "food_unit", "topclass"],
-                   _filter=[("recipe_url",results['results']['bindings'][i]['recipe_url']['value'])], limit=15)
+                   _filter=[("recipe_url",results['results']['bindings'][i]['recipe_url']['value'])], limit=15, distinct=True)
             results2.append(query.run_query())
 
     return results2,url,food_name,origin_ingre
