@@ -16,9 +16,9 @@ For every recipes:
 
 **Ontology:recipe:**
   
-    rdfs:value str recipe\_name
+    rdfs:value str recipe_name
 
-    URL: str, \_url\_of\_recipe;
+    URL: str, _url_of_recipe;
   
     INGEDRENTS:String version of ingredients
   
@@ -27,7 +27,7 @@ For every recipes:
  
 **Ontology:food:**
 
-    URL: str, \_url\_of\_food;
+    URL: str, _url_of_food;
   
     TYPE: str, food_type;
   
@@ -52,4 +52,4 @@ For every recipes:
   
     UNIT: unit ;
     
-    UNIT_PRICE: unit\_price .
+    UNIT_PRICE: unit_price .
