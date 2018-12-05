@@ -74,3 +74,64 @@ SELECT distinct ?name ?unit_price ?unit WHERE {
      
 }
 
+
+Search for food and recipe that related:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX inf558: <http://inf558.org/ns/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?recipe_name, ?recipe_url where {
+    ?u a schema:usedby; 
+        schema:amount ?amount ;
+        schema:unit ?using_unit ;
+        schema:unit_price ?using_unit_price ;
+        schema:inrecipe ?R ;
+        schema:forfood ?A . 
+    ?A a schema:food ;
+        schema:topclass ?topclass ;
+        schema:subclass ?subclass ;
+        rdf:value ?food_name ;
+        schema:price ?food_price ;
+        schema:unit ?food_unit ;
+        schema:unit_price ?food_unit_price .
+    ?R a schema:recipe ;
+        schema:recipe_url ?recipe_url ;
+        schema:recipe_type ?recipe_type ;
+        schema:type_url ?type_url ;
+        schema:ingredient ?ingredient ;
+        rdf:value ?recipe_name ;
+  filter(?subclass = "mushroom")
+}
+
+Complex search:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX inf558: <http://inf558.org/ns/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?recipe_name, ?recipe_url where {
+    ?u a schema:usedby; 
+        schema:amount ?amount ;
+        schema:unit ?using_unit ;
+        schema:unit_price ?using_unit_price ;
+        schema:inrecipe ?R ;
+        schema:forfood ?A . 
+    ?A a schema:food ;
+        schema:topclass ?topclass ;
+        schema:subclass ?subclass ;
+        rdf:value ?food_name ;
+        schema:price ?food_price ;
+        schema:unit ?food_unit ;
+        schema:unit_price ?food_unit_price .
+    ?R a schema:recipe ;
+        schema:recipe_url ?recipe_url ;
+        schema:recipe_type ?recipe_type ;
+        schema:type_url ?type_url ;
+        schema:ingredient ?ingredient ;
+        rdf:value ?recipe_name ;
+  filter(?subclass = "eggs")
+  filter(?subclass = "butter")
+  filter(?recipt_type = "Cookie Recipes")
+}
+
