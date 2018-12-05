@@ -14,20 +14,22 @@ Definition of ontologies
 
 For every recipes:
 
-**Ontology:recipe:**
+**Ontology:recipe:**: An entity of recipe
   
-    rdfs:value str recipe\_name
+    rdfs:value str recipe_name
 
-    URL: str, \_url\_of\_recipe;
+    URL: str, url_of_recipe
   
     INGEDRENTS:String version of ingredients
   
     TYPE: str, recipe_type
+    
+    
   
  
-**Ontology:food:**
+**Ontology:food:** : An entity of food
 
-    URL: str, \_url\_of\_food;
+    URL: str, url_of_food;
   
     TYPE: str, food_type;
   
@@ -42,7 +44,7 @@ For every recipes:
     UNIT_PRICE: float, the unit price of the food
   
  
-**Ontology:used_by:**
+**Ontology:used_by:** An ontology created when some food is called in a recipe, with its amount and unit
 
     domian: food ;
   
@@ -52,4 +54,4 @@ For every recipes:
   
     UNIT: unit ;
     
-    UNIT_PRICE: unit\_price .
+    UNIT_PRICE: unit_price .
