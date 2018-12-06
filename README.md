@@ -8,7 +8,7 @@
   A descriptive video is on https://www.youtube.com/watch?v=H2d6Kr-BRAU .
   
 #### **Using**
-  You can try loading "recipes_and_food.ttl" onto Apache Jena Fuseki server and run your own sparql queries.
+  You can try loading "recipe_food.ttl" onto Apache Jena Fuseki server and run your own sparql queries.
   
   
   And we recommend you to try out our interface built from Flask
